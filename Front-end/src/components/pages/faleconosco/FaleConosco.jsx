@@ -1,9 +1,10 @@
 import React from "react";
+import Cadastro from "../cadastro/Cadastro";
 
 const FaleConosco = () => {
     return(
         <section className="hero" >
-            <h1> Fale</h1>
+           
         </section>
     )
 }
