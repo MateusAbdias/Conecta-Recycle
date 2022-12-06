@@ -1,10 +1,12 @@
 import React from "react";
-import Cadastro from "../cadastro/Cadastro";
+
 
 const FaleConosco = () => {
     return(
         <section className="hero" >
-           
+           <div>
+                <h1>oi</h1>
+           </div>
         </section>
     )
 }

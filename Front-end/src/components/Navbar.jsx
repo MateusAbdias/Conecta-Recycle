@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef } from "react";
-import Logo from "./imagens/logotrans.png"
+import Logo from "../assets/Images/logo.png"
 import "./navbar.css"
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from "react-router-dom";
