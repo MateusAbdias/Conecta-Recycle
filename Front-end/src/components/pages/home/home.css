@@ -1,4 +1,610 @@
 h1{
-    background-color: #01113D;
     padding-bottom: 500px;
+}
+
+
+  .imageminicial{
+    display: flex;
+    justify-content: center;
+     width: 100%;
+    top: 0px;
+  }
+
+  .title{
+    font-size: 40px;
+    color: #31A936;
+    margin-top: 100px;
+    margin-left: 280px;
+  }
+
+  .slides{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0px;
+    cursor: grab;
+  }
+  
+  .scrollimg{
+  width: 1900px;
+  height: 650px;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+  cursor: grab;
+  }
+
+  .acesso{
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: #F15701;
+    background-color: #F15701;
+    margin-left: 400px;
+    margin-top: 40px;    
+    width: 230px;
+    padding: 10px;
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.video{
+    margin-left: 840px;
+    margin-top: -280px;
+    display: flex;
+}
+
+.iconlinkedin{
+  display: flex;
+  margin-left: 50px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.linkedin{
+  margin-left: 200px;
+  cursor: pointer;
+  size: 40px;
+}
+
+.iconinstagram{
+  display: flex;
+  font-size: 25px;
+  margin-left: 60px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.instagram{
+  margin-left: 400px;
+  margin-top: -60px;
+  size: 40px;
+  cursor: pointer;
+}
+
+.iconyoutube{
+  display: flex;
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+.youtube{
+  margin-left: 600px;
+  margin-top: -55px;
+  size: 40px;
+}
+
+.comofunciona{
+  padding: 10px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.conteiner{
+  margin-top: -490px;
+}
+
+.primeiropasso{
+  align-items:flex-start;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 10px;
+  width: 200px;
+}
+
+.primeiropasso p, h3{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.primeiropasso h3{
+  margin-top: -5px;
+}
+
+.primeiropasso p{
+  color: #F15701;
+}
+
+.passo{
+  display: flex;
+  width:6%;
+  margin-left: 325px;
+  margin-top: -100px;
+}
+
+.segundopasso{
+  align-items:flex-start;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: -117px;
+  margin-left: 430px;
+  width: 210px;
+}
+
+.segundopasso p, h3{
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.segundopasso h3{
+  margin-top: -5px;
+}
+
+.segundopasso p{
+  color: #F15701;
+}
+
+.passo2{
+  display: flex;
+  width:6%;
+  margin-left: 675px;
+  margin-top: -100px;
+}
+
+.terceiropasso{
+  align-items:flex-start;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: -120px;
+  margin-left: 780px;
+  padding: 10px;
+  width: 220px;
+}
+
+.terceiropasso p, h3{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.terceiropasso h3{
+  margin-top: -20px;
+}
+
+.terceiropasso p{
+  color: #F15701;
+}
+
+.passo3{
+  display: flex;
+  width:6%;
+  margin-left: 1030px;
+  margin-top: -100px;
+}
+
+.quartopasso{
+    align-items:flex-start;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: -120px;
+    margin-left: 1140px;
+    padding: 10px;
+    width: 230px;
+}
+  
+.quartopasso p, h3{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+  
+.quartopasso h3{
+  margin-top: 0px;
+}
+  
+.quartopasso p{
+  color: #F15701;
+}
+
+.btncadastro{
+  text-decoration: none;
+  border-radius: 20px;
+  border-color: #F15701;
+  background-color: #F15701;
+  margin-top: 80px;    
+  width: 210px;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  margin-left: 640px;
+}
+
+.logistica{
+  display: flex;
+  width: 80%;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.comodescartar{
+  background-image: url("https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/home/18bbe1dc-ffc4-4842-9421-2bfe3bd68de1.png?raw=true");
+  margin-left: -20px;
+}
+
+.topico{
+  padding: 70px;
+  margin-left: 80px;
+  margin-top: 90px;
+  color: white;
+}
+
+.descarte{
+  display: flex;
+  margin-top: -30px;
+  margin-left: 190px;
+  color: white;
+}
+
+.option{
+  display: flex;
+  width: 16%;
+  margin-top: 20px;
+  margin-left: 190px;
+  border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  color: grey;
+}
+
+.condição{
+  display: flex;
+  margin-top: -75px;
+  margin-left: 490px;
+  color: white;
+}
+
+.opçõescondição{
+  padding: 5px;
+  margin-left: 490px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: grey;
+}
+
+.cepdescrition{
+  margin-top: 20px;
+  margin-left: 190px;
+  color: white;
+}
+
+.cep{
+  margin-top: 10px;
+  margin-left: 190px;
+  border-radius: 5px;
+  padding: 3px;
+  width: 585px;
+}
+
+.email{
+  display: flex;
+  margin-left: 190px;
+  margin-top: 15px;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 585px;
+}
+
+.check{
+  display: flex;
+  margin-left: 190px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.confirmaremail{
+  display: flex;
+  margin-left: 220px;
+  margin-top: -17px;
+  color: white;
+}
+
+.btn{
+  padding: 10px;
+  border-radius: 20px;
+  border-color: white;
+  margin-left: 600px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.curiosidades{
+  margin-left: 130px;
+  margin-top: 100px;
+  width: 20%;
+}
+
+.plataforma{
+  margin-left: 80px;
+  margin-top: 80px;
+  width: 90%;
+
+}
+
+.entrar{
+  margin-left: 600px;
+  margin-top: 60px;
+  background-color: #F15701;
+  border-color: #F15701;
+  border-radius: 15px;
+  padding: 10px;
+  width: 19%;
+  cursor: pointer;
+}
+
+.usuários{
+  background-color: #01113d;
+}
+
+.usuários h1{
+  padding:70px;
+  margin-top: 80px;
+  margin-left: 150px;
+}
+
+.paraquem{
+  display: flex;
+  margin-left: 250px;
+  margin-top: -40px;
+}
+.voce{
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 15%;
+  background-color: white;
+  margin-left: 230px;
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.voce h4{
+  display: flex;
+  justify-content: center;
+}
+
+.voce p{
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.estabelecimentos{
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 15%;
+  background-color: white;
+  margin-top: -150px;
+  margin-left: 650px;
+  padding: 20px;
+}
+
+.estabelecimentos h4{
+  display: flex;
+  justify-content: center;
+}
+
+.estabelecimentos p{
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.empresas{
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 15%;
+  background-color: white;
+  margin-top: -145px;
+  margin-left: 1050px;
+  padding: 20px;
+}
+
+.empresas h4{
+  display: flex;
+  justify-content: center;
+}
+
+.empresas p{
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.botton{
+  padding: 30px;
+  margin-top: -40px;
+}
+.btnbeneficios{
+  display: flex;
+  justify-content: center;
+  margin-left: 400px;
+  margin-top: 70px;
+  padding: 13px;
+  border-radius: 20px;
+  background-color: #F15701;
+  border: none;
+  width: 250px;
+  cursor: pointer;
+}
+
+.btnfaleconosco{
+  display: flex;
+  justify-content: center;
+  margin-left: 790px;
+  margin-top: -45px;
+  margin-bottom: -10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #01113d;
+  border-color: #F15701;
+  width: 250px;
+  cursor: pointer;
+}
+
+.blog{
+  border-left: 100px;
+  background-color: #31A936;
+}
+
+.blog h1{
+  padding: 30px;
+  margin-top: 100px;
+  margin-left: 230px;
+  display: flex;
+}
+
+.blog p{
+  margin-left: 250px;
+  margin-top: 10px;
+  font-size: 15px;
+  display: flex;
+}
+
+.iconrapido{
+  display: flex;
+  margin-left: 870px;
+  margin-top: -80px;
+  width: 7%;
+}
+
+.iconseguro{
+  display: flex;
+  margin-left: 1000px;
+  margin-top: -105px;
+  width: 7%;
+}
+
+.iconemail{
+  display: flex;
+  margin-left: 1130px;
+  margin-top: -105px;
+  width: 7%;
+}
+
+.icongratuito{
+  display: flex;
+  margin-left: 1260px;
+  margin-top: -105px;
+  width: 7%;
+}
+.blog h2{
+  margin-left: 250px;
+  margin-top: 20px;
+}
+/* arrumando input do trecho do blog */
+.inputemail{
+  width: 40%;
+  margin-left: 130px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border-color: #01113d;
+  background-color: #31A936;
+  
+}
+
+.blog button{
+  cursor: pointer;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  width: 200px;
+  font-size: 15px;
+  background-color: #000000;
+}
+
+.checkout{
+display: flex;
+}
+
+.confirmation{
+  display: flex;
+  margin-left: 10px;
+}
+
+.checkemail{
+  width: 10%;
+}
+
+::-webkit-input-placeholder{
+  color:#000000; 
+}
+.termo{
+  padding: 30px;
+}
+
+.topicocomentarios{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.comentarios{
+  width: 1000px;
+  margin-top: -500px;
+  margin-bottom: 200px;
+  margin-left: 250px;
+}
+
+.final{
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+  font-size:35px;
+}
+
+.subfinal{
+  display: flex;
+  justify-content: center;
+  font-size:20px;
+}
+
+.cadastrarnosite{
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  margin-left: 500px;
+  margin-top: 60px;
+  background-color: #F15701;
+  cursor: pointer;
+}
+
+.classcontato{
+ display: flex;
+ justify-content: center;
+ cursor: pointer;
+ background-color: none;
+ border-color:#F15701;
+ border-radius: 15px;
+ padding: 10px;
+ width: 230px; 
+ margin-left: 800px;
+ margin-top: -44px;
 }
