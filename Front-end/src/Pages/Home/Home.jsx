@@ -1,10 +1,14 @@
 import React from "react";
+<<<<<<< HEAD:Front-end/src/components/pages/home/Home.jsx
 import "./home.css";
 import { useState, useEffect, useRef } from 'react';
 import { CiLinkedin } from 'react-icons/ci';
 import { FiInstagram } from 'react-icons/Fi';
 import { AiOutlineYoutube } from 'react-icons/ai';
 import { motion } from 'framer-motion';
+=======
+import "./home.css"
+>>>>>>> 37bd1cad9309b0cf51efde7f72794423153441e5:Front-end/src/Pages/Home/Home.jsx
 
 const Home = () => {
     /* Aplicando efeitos nas imagens iniciais da homepage */

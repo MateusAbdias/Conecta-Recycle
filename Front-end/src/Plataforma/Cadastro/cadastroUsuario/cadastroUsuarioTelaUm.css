@@ -1,0 +1,189 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+    padding:0px;
+}
+
+
+.conteiner-tela-cadastroUm{
+    display:flex;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.banner-cadastroUm{  
+    background: linear-gradient(397.87deg, #01113D 11.49%, #2FF74A 142.02%); 
+    width:30%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+.paragrado-cadastro{
+    color:#ffff;
+    font-size: 50px;
+    margin-top: 330px;
+    font-weight: bold;
+    
+}
+
+.conteiner-main{
+    background-color: rgb(255, 255, 255);
+    min-width: 70%;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;  
+
+}
+
+.titulo-cadastro-usuarioUm{
+    font-style:normal;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    margin-bottom: 25px;   
+}
+
+h1{
+    line-height: 60px;
+}
+
+.conteiner-inputs-cadastro-usuario-telaUm div{
+
+    display:flex;
+    width: 50vw;
+    margin-top: 15px;
+
+}
+
+
+input{
+    border-left:none;
+    border-top:none;
+    border-right: none;
+    border-bottom: 1px solid rgb(0, 0, 0) ;
+    background-color: transparent;
+    
+    
+}
+
+.input-nome-sobrenome{
+    margin-bottom:20px ;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+::placeholder{
+    color:#ACACAC; 
+    margin-bottom: 20px;
+}
+
+
+.input-nome{
+    display: flex;
+    flex-direction: column;
+    padding-right:90px ;
+    
+}
+
+.input-sobrenome{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-email{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.input-senha{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#botao-continuar-tl-cadastroUm{
+    background-color:  #18C148;
+    cursor:pointer;
+    width: 200px;
+    height: 36px;
+    border-radius: 10px;
+    margin-left:35%;
+    margin-top:40px;
+    margin-bottom: 30px;
+    border-bottom: none;
+    font-size: 16px;
+    font-weight:bold;
+    color:#ffffff;
+
+}
+
+
+
+.conteiner-cadastro-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icones-tl-cadastroUm{
+    position: relative;
+}
+
+.icone-acessibilidade-tl-cadastroUm{
+    position: absolute;
+    left:-60px;
+    top:680px;
+    font-size: 35px;
+    background-color: transparent;
+    border:none;
+}
+
+.LinkSair-tl-cadastroUM{
+    position: absolute;
+    left:-40px;
+    top:20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.span-icon{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom:20px;
+    margin-top:20px;
+    justify-content: space-between;
+
+}
+
+.icon-facebook{
+    margin-right:20px;
+    width: 30px;
+    height: 30px;
+    color:#3B579D;
+
+}
+
+.icon-google{
+    width: 30px;
+    height: 30px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+

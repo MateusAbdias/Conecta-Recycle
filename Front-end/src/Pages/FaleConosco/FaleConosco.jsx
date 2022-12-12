@@ -1,9 +1,12 @@
 import React from "react";
 
+
 const FaleConosco = () => {
     return(
         <section className="hero" >
-            <h1> Fale</h1>
+           <div>
+                <h1>oi</h1>
+           </div>
         </section>
     )
 }

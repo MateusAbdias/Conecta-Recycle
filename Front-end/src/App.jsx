@@ -2,12 +2,12 @@ import {Routes, Route} from 'react-router-dom'
 
 import './App.css';
 import Navbar from './components/Navbar';
-import QuemSomos from './components/pages/quemsomos/QuemSomos';
-import Home from "./components/pages/home/Home"
-import Blog from "./components/pages/blog/Blog"
-import Parceiros from "./components/pages/parcerias/Parcerias"
-import FaleConosco from "./components/pages/faleconosco/FaleConosco"
-import Pevs from "./components/pages/Pevs/Pevs"
+import QuemSomos from './Pages/QuemSomos/QuemSomos';
+import Home from "./Pages/Home/Home"
+import Blog from "./Pages/Blog/Blog"
+import Parceiros from "./Pages/Parcerias/Parcerias"
+import FaleConosco from "./Pages/FaleConosco/FaleConosco"
+import Pevs from "./Pages/Pevs/Pevs"
 
 
 function App () {
