@@ -10,6 +10,7 @@ import FaleConosco from "./Pages/FaleConosco/FaleConosco"
 import Pevs from "./Pages/Pevs/Pevs"
 
 
+
 function App () {
     return(
 
@@ -23,7 +24,10 @@ function App () {
           <Route path="/blog" element={<Blog/>}/>
           <Route path="/parceiros" element={<Parceiros/>}/>
           <Route path="/faleconosco" element={<FaleConosco/>}/>
+          
         </Routes>
+      
+       
       </div>
     )
 }

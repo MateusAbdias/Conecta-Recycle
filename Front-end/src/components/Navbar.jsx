@@ -16,7 +16,7 @@ function Navbar() {
         <div>
             <main className="mainac"></main>
             <header>
-                <Link to="/"><img src={Logo} alt="logo" /></Link>
+                <Link to="/"><img src={Logo} alt="logo" id="logoConectaRecycle" /></Link>
                 <nav ref={navRef}>
                     <ul className="nav-li">
 

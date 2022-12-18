@@ -1,56 +1,49 @@
 import React from "react";
-<<<<<<< HEAD:Front-end/src/components/pages/home/Home.jsx
-import "./home.css";
-import { useState, useEffect, useRef } from 'react';
 import { CiLinkedin } from 'react-icons/ci';
 import { FiInstagram } from 'react-icons/Fi';
 import { AiOutlineYoutube } from 'react-icons/ai';
-import { motion } from 'framer-motion';
-=======
-import "./home.css"
->>>>>>> 37bd1cad9309b0cf51efde7f72794423153441e5:Front-end/src/Pages/Home/Home.jsx
+import { Link } from "react-router-dom";
+import "./home.css";
+
 
 const Home = () => {
-    /* Aplicando efeitos nas imagens iniciais da homepage */
-    const carrossel = useRef();
-    const [width, setWidth] = useState(0)
+        {/* Aplicando imagens iniciais da homepage */}
 
-    useEffect(() => {
-        console.log(carrossel.current?.scrollWidth, carrossel.ofsetWidth)
-        setWidth(carrossel.current?.scrollWidth - carrossel.ofsetWidth)
-    }, [])
-
-    return (
+    return(
         <div className="home">
-            <motion.div ref={carrossel} className="carrossel" whileTap={{ cursor: "grabbing" }}>
-                <motion.div className="slides"
-                    drag="x"
-                    dragConstraints={{}}>
 
+            <div>
+                <div className="slides" id="img">
                     <img className="scrollimg"
                         src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/home/26db4198-1f4c-4110-bd3f-6a5e036e28e7.png?raw=true"
                         alt="Os pilares da Conecta Recycle">
                     </img>
-                    <img className="scrollimg"
+                    <img className="scrollimg" id="img2"
                         src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/home/3fa9718b-57ce-48cf-a76f-b3584b2f1e6a.png?raw=true"
                         alt="Os pilares da Conecta Recycle">
                     </img>
-                    <img className="scrollimg"
+                    <img className="scrollimg" id="img3"
                         src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/home/38d2c7f0-148d-415e-911c-7ab8b9294544.png?raw=true"
                         alt="Os pilares da Conecta Recycle">
                     </img>
-                </motion.div>
-            </motion.div>
-            <h2 className="title"> Solução para os<br></br> lixos eletrônicos<br></br> na Grande Recife!</h2>
-            <button className="acesso">
-                <font color="#01113d"> Acesse a nossa plataforma </font>
-            </button>
-                <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/Yg-cPYYn9F0" 
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-                    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
-            <div>
+                </div>
+            </div>
 
+            {/*Inserção do vídeo da plataforma e botão de acesso */}
+            <div>
+                <h2 className="title"> Solução para os<br></br> lixos eletrônicos<br></br> na Grande Recife!</h2>
+                <button className="acesso">
+                <Link to="/CadastroUsuarioTelaUm"><font color="#01113d"> Acesse a nossa plataforma </font></Link>
+                </button>
+
+                    <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/Yg-cPYYn9F0" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+            </div>
+
+                {/*Inserindo links das redes sociais do projeto*/}
+            <div>
                 <a href="https://www.linkedin.com/in/conecta-recycle-3a5390256/">
                     <p className="linkedin">
                         <CiLinkedin className="iconlinkedin" />
@@ -65,9 +58,9 @@ const Home = () => {
                     <p className="instagram">
                         <FiInstagram className="iconinstagram" />
                         <font color="#01113d"> @conectarecycle </font></p></a>
+                </div>
 
-            </div>
-
+            {/*/descrição de como funciona a plataforma em minicards*/}
             <div className="comofunciona">
                 <h1> Como a Conecta Recycle funciona? </h1>
             </div>
@@ -104,18 +97,13 @@ const Home = () => {
                         <font color="#01113d"> Cadastre-se </font>
                     </button>
                 </div>
+            </div>
 
-                <div>
-                    <img className="logistica"
-                        src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/home/1463c70e-8fa9-442e-8761-5e91b8bedeb9.png?raw=true"
-                        alt="Logística Reversa">
-                    </img>
-                </div>
-                   
-                <div className="comodescartar">
+            {/*inserindo inputs para perguntar ao usuário qual material ele vai descartar para orientar o descarte correto e sem risco*/}
+            <div className="comodescartar">
                     <h2 className="topico">Saiba como descartar seus resíduos eletrônicos </h2>
                     <p className="descarte"> Que objeto você vai descartar? </p>
-                    <select className="option" required>
+                    <select className="option">
                         <option value="Selecione"> Selecione um objeto </option>
                         <option value="pilhas"> Pilhas </option>
                         <option value="celular"> Celular </option>
@@ -132,13 +120,15 @@ const Home = () => {
                     <input className="cep" type="number" placeholder="_____-__"></input>
 
                     <p className="email"> Insira o seu email</p>
-                    <input className="email" type="email" placeholder="Digite seu email"></input>
+                    <input className="inputemailuser" type="email" placeholder="Digite seu email"></input>
 
                     <input type="checkbox" className="check"></input>
                     <p className="confirmaremail"> Concorda em receber informações pelo email? </p>
 
                     <button className="btn"> Saber como descartar </button>
-                </div>
+            </div>
+
+                {/* inserindo imagens de curiosidades sobre o lixo eletrônico*/}
                 <div>
                     <img className="curiosidades" src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/home/db19baf8-aa83-416a-a7f9-2dcb654cc90d.png?raw=true"
                         alt="curiosidades o avanço do lixo no Brasil">
@@ -150,14 +140,19 @@ const Home = () => {
                         alt="curiosidades sobre o lixo eletrônico">
                     </img>
                 </div>
+
+                {/* Inserindo imagem com os principais pontos abordados na plataforma */}
                 <div>
                     <img className="plataforma" src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/home/3d2d3f23-0853-4245-91e0-62501dbfd44f.png?raw=true"
                         alt="sobre a plataforma">
                     </img>
                 </div>
+
                 <div>
                     <button className="entrar"> <font color="#01113d"> Acessar a nossa plataforma </font></button>
                 </div>
+
+                {/* Descrição do público alvo da nossa plataforma em mini cards*/}
                 <div className="usuários">
                     <h1><font color="#F15701"> Para quem a Conecta Recycle é feita? </font></h1>
                     <p className="paraquem"><font color="#ffffff"> A plataforma Conecta Recycle é feita para três tipos de usuários:</font> </p>
@@ -175,13 +170,14 @@ const Home = () => {
                             <p> Que trabalham com o reaproveitamento e reciclagem de eletrônicos.</p>
                         </div>
                         <div className="botton">
-                            <button className="btnbeneficios"> Veja os benefícios </button>
-                            <button className="btnfaleconosco"><font color="#F15701"> Fale Conosco </font></button>
+                            <Link to="/parceiros"><button className="btnbeneficios"> Veja os benefícios </button></Link>
+                            <Link to="/faleconosco"><button className="btnfaleconosco"><font color="#F15701"> Fale Conosco </font></button></Link>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="blog"> 
+
+                {/* Aba de inscrição e acesso ao blog */}
+                <div className="blog"> 
                 <h1> Conheça nosso blog</h1>
                     <p> A Conecta Recycle possui um blog com informações a respeito de<br></br>
                     tecnologia, reciclagem e meio ambiente. Prezamos sempre pela<br></br> 
@@ -199,25 +195,39 @@ const Home = () => {
                     alt="gratuidade">
                 </img>
                 <h2> Se inscreva agora no nosso blog </h2>
-                    <input className="inputemail" type="email" placeholder="Digite seu email para receber notícias"></input>
-                <button><font color="#ffffff"> INSCREVER-SE </font></button>
-                <input className="checkemail" type="email"></input>
-                <p className="termo"> Concordo em receber atualizações em meu email.</p>
-            </div>
+                
+                <form>
+                   <input className="inputemailblog" type="email" 
+                        placeholder="Digite seu email para receber notícias"/>
+                
+                    <button>
+                        <font color="#ffffff"> INSCREVER-SE </font>
+                    </button>
+                </form>
 
+                <div className="divteste">
+                    <input className="checkemail" type="checkbox"></input>
+                    <p> Concordo em receber atualizações em meu email.</p>
+                </div>
+            </div>
+               {/* Descrição de comentários dos clientes através de imagens */}
             <div> 
                 <h1 className="topicocomentarios"> Comentários dos nossos clientes </h1>
                 <img className="comentarios" src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/home/71adc65e-16a7-45a9-abe5-a1a17e00585e.png?raw=true" 
                     alt="Comentários dos nossos clientes">
                 </img>
+
+                {/* Chamada para a ação de manter conectado ao site */}
                 <h3 className="final"> E você, está esperando o que? Se conecte hoje! </h3>
                     <p className="subfinal">Não perca mais tempo, cadastre-se hoje na Conecta Recycle. </p>
                         <button className="cadastrarnosite"><font color="#01113d">CADASTRAR-SE </font></button>
-                        <button className="classcontato"><font color="#01113d"> Fale conosco </font></button>
+                        <Link to="/faleconosco"><button className="classcontato"><font color="#01113d"> Fale conosco </font></button></Link>
+            
+
             </div>
         </div>
-
     )
 }
 
-export default Home
+
+export default Home;
