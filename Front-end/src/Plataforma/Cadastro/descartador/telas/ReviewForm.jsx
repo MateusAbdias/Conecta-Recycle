@@ -1,15 +1,11 @@
 import React from "react";
 
-
-const ReviewForm = ({cadastro, handleChange}) => {
+const ReviewForm = ({ cadastro, handleChange }) => {
   return (
     <div className="conteiner-useForm">
-
-      <div className='form-control-um'>
+      <div className="form-control-um">
         <div className="form-control">
-          <label htmlFor="cpf">
-            CPF
-          </label>
+          <label htmlFor="cpf">CPF</label>
 
           <input
             type="text"
@@ -22,9 +18,7 @@ const ReviewForm = ({cadastro, handleChange}) => {
           />
         </div>
         <div className="form-control">
-          <label htmlFor="data-nasc">
-            DATA DE NASCIMENTO
-          </label>
+          <label htmlFor="data-nasc">DATA DE NASCIMENTO</label>
 
           <input
             type="date"
@@ -36,14 +30,11 @@ const ReviewForm = ({cadastro, handleChange}) => {
             required
           />
         </div>
-
       </div>
 
-      <div className='form-control-dois'>
-        <div id = "cep1" className="form-control">
-          <label htmlFor="cep">
-            CEP
-          </label>
+      <div className="form-control-dois">
+        <div id="cep1" className="form-control">
+          <label htmlFor="cep">CEP</label>
 
           <input
             type="text"
@@ -56,9 +47,7 @@ const ReviewForm = ({cadastro, handleChange}) => {
           />
         </div>
         <div id="telefone1" className="form-control">
-          <label htmlFor="telefone">
-            TELEFONE
-          </label>
+          <label htmlFor="telefone">TELEFONE</label>
 
           <input
             type="text"
@@ -74,32 +63,31 @@ const ReviewForm = ({cadastro, handleChange}) => {
 
       <div className="termos">
         <div className="msg-email">
-          <input
-            type="checkbox"
-            name="recebEmail"
-            id="receb-email"
-          />
+          <input type="checkbox" name="recebEmail" id="receb-email" />
 
-          <label htmlFor='receb-email' className="label-termos ">
+          <label htmlFor="receb-email" className="label-termos ">
             Concordo em receber informações pelo e-mail?
           </label>
-        
         </div>
-        
-        <div className="termos-privacidade" >
-          <input
-            type="checkbox"
-            name="privacidade"
-            id="termos-priv"
-          />
 
-          <label htmlFor="termos-priv"  className="label-termos">
-            Concordo com os <a href="/" className="link-termos"> termos de serviços </a> e políticas de <a href="/" className="link-privacidade" > privacidade.</a>
+        <div className="termos-privacidade">
+          <input type="checkbox" name="privacidade" id="termos-priv" />
+
+          <label htmlFor="termos-priv" className="label-termos">
+            Concordo com os{" "}
+            <a href="/" className="link-termos">
+              {" "}
+              termos de serviços{" "}
+            </a>{" "}
+            e políticas de{" "}
+            <a href="/" className="link-privacidade">
+              {" "}
+              privacidade.
+            </a>
           </label>
         </div>
       </div>
     </div>
-
-  )
-}
-export default ReviewForm
+  );
+};
+export default ReviewForm;

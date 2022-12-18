@@ -1,13 +1,10 @@
 import React from "react";
 
-const ReviewForm = ({dados}) => {
+const ReviewForm = ({ dados }) => {
   return (
     <div className="conteiner-useForm2pv">
-
       <div className="form-controlpv">
-        <label htmlFor="linklogopv">
-          LINK DA SUA LOGO
-        </label>
+        <label htmlFor="linklogopv">LINK DA SUA LOGO</label>
 
         <input
           type="text"
@@ -17,11 +14,9 @@ const ReviewForm = ({dados}) => {
           required
         />
       </div>
-      <div className='form-control-umpv'>
+      <div className="form-control-umpv">
         <div className="form-controlpv">
-          <label htmlFor="instagrampv">
-            INSTAGRAM
-          </label>
+          <label htmlFor="instagrampv">INSTAGRAM</label>
 
           <input
             type="text"
@@ -32,9 +27,7 @@ const ReviewForm = ({dados}) => {
           />
         </div>
         <div className="form-controlpv">
-          <label htmlFor="linkedinpv">
-            LINKEDIN
-          </label>
+          <label htmlFor="linkedinpv">LINKEDIN</label>
 
           <input
             type="text"
@@ -44,14 +37,11 @@ const ReviewForm = ({dados}) => {
             required
           />
         </div>
-
       </div>
 
-      <div className='form-control-doispv'>
+      <div className="form-control-doispv">
         <div className="form-control">
-          <label htmlFor="whatsapp1pv">
-            WHATSAPP
-          </label>
+          <label htmlFor="whatsapp1pv">WHATSAPP</label>
 
           <input
             type="text"
@@ -62,9 +52,7 @@ const ReviewForm = ({dados}) => {
           />
         </div>
         <div className="form-controlpv">
-          <label htmlFor="whatsapp2pv">
-            WHATSAPP
-          </label>
+          <label htmlFor="whatsapp2pv">WHATSAPP</label>
 
           <input
             type="text"
@@ -76,7 +64,6 @@ const ReviewForm = ({dados}) => {
         </div>
       </div>
     </div>
-
-  )
-}
-export default ReviewForm
+  );
+};
+export default ReviewForm;

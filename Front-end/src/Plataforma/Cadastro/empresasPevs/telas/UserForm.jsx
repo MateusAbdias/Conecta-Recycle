@@ -1,14 +1,11 @@
 import React from "react";
 
-const UserForm = ({dados, updadeFieldHandler}) => {
+const UserForm = ({ dados, updadeFieldHandler }) => {
   return (
     <div className="conteiner-useFormpv">
-
-      <div className='form-control-umpv'>
+      <div className="form-control-umpv">
         <div className="form-controlpv">
-          <label htmlFor="razaoSocialpv">
-            RAZÃO SOCIAL
-          </label>
+          <label htmlFor="razaoSocialpv">RAZÃO SOCIAL</label>
 
           <input
             type="text"
@@ -16,15 +13,13 @@ const UserForm = ({dados, updadeFieldHandler}) => {
             id="razaosocialpv"
             placeholder="Digite a razão social da sua empresa"
             required
-            value={dados.razaoSocial || "" }
-            onChange={(e) => updadeFieldHandler("razaoSocial", e.target.value) }
+            value={dados.razaoSocial || ""}
+            onChange={(e) => updadeFieldHandler("razaoSocial", e.target.value)}
           />
         </div>
 
         <div className="form-controlpv">
-          <label htmlFor="ceppv">
-            CEP 
-          </label>
+          <label htmlFor="ceppv">CEP</label>
 
           <input
             type="text"
@@ -35,9 +30,7 @@ const UserForm = ({dados, updadeFieldHandler}) => {
           />
         </div>
         <div className="form-controlpv">
-          <label htmlFor="cnpjpv">
-            CNPJ 
-          </label>
+          <label htmlFor="cnpjpv">CNPJ</label>
 
           <input
             type="text"
@@ -47,14 +40,11 @@ const UserForm = ({dados, updadeFieldHandler}) => {
             required
           />
         </div>
-
       </div>
-      
-      <div className='form-control-doispv'>
+
+      <div className="form-control-doispv">
         <div className="form-controlpv">
-          <label htmlFor="razaoJuridicapv">
-            RAZÃO JURÍDICA 
-          </label>
+          <label htmlFor="razaoJuridicapv">RAZÃO JURÍDICA</label>
 
           <input
             type="text"
@@ -65,9 +55,7 @@ const UserForm = ({dados, updadeFieldHandler}) => {
           />
         </div>
         <div className="form-controlpv">
-          <label htmlFor="complementopv">
-            COMPLEMENTO 
-          </label>
+          <label htmlFor="complementopv">COMPLEMENTO</label>
 
           <input
             type="text"
@@ -78,9 +66,7 @@ const UserForm = ({dados, updadeFieldHandler}) => {
           />
         </div>
         <div className="form-controlpv">
-          <label htmlFor="cnaepv">
-            CNAE
-          </label>
+          <label htmlFor="cnaepv">CNAE</label>
 
           <input
             type="text"
@@ -93,9 +79,7 @@ const UserForm = ({dados, updadeFieldHandler}) => {
       </div>
 
       <div className="form-emailpv">
-        <label htmlFor="emailpv">
-          E-MAIL
-        </label>
+        <label htmlFor="emailpv">E-MAIL</label>
 
         <input
           type="email"
@@ -106,7 +90,6 @@ const UserForm = ({dados, updadeFieldHandler}) => {
         />
       </div>
     </div>
-
-  )
-}
-export default UserForm
+  );
+};
+export default UserForm;

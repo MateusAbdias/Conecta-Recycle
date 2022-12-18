@@ -1,14 +1,11 @@
 import React from "react";
 
-const UserForm = ({dados, updadeFieldHandler}) => {
+const UserForm = ({ dados, updadeFieldHandler }) => {
   return (
     <div className="conteiner-useFormec">
-
-      <div className='form-control-umec'>
+      <div className="form-control-umec">
         <div className="form-controlec">
-          <label htmlFor="razaoSocialec">
-            RAZÃO SOCIAL
-          </label>
+          <label htmlFor="razaoSocialec">RAZÃO SOCIAL</label>
 
           <input
             type="text"
@@ -16,15 +13,13 @@ const UserForm = ({dados, updadeFieldHandler}) => {
             id="razaosocialec"
             placeholder="Digite a razão social da sua empresa"
             required
-            value={dados.razaoSocial || "" }
-            onChange={(e) => updadeFieldHandler("razaoSocial", e.target.value) }
+            value={dados.razaoSocial || ""}
+            onChange={(e) => updadeFieldHandler("razaoSocial", e.target.value)}
           />
         </div>
 
         <div className="form-controlec">
-          <label htmlFor="cepec">
-            CEP 
-          </label>
+          <label htmlFor="cepec">CEP</label>
 
           <input
             type="text"
@@ -35,9 +30,7 @@ const UserForm = ({dados, updadeFieldHandler}) => {
           />
         </div>
         <div className="form-controlec">
-          <label htmlFor="cnpjec">
-            CNPJ 
-          </label>
+          <label htmlFor="cnpjec">CNPJ</label>
 
           <input
             type="text"
@@ -47,14 +40,11 @@ const UserForm = ({dados, updadeFieldHandler}) => {
             required
           />
         </div>
-
       </div>
-      
-      <div className='form-control-doisec'>
+
+      <div className="form-control-doisec">
         <div className="form-controlec">
-          <label htmlFor="razaoJuridicaec">
-            RAZÃO JURÍDICA 
-          </label>
+          <label htmlFor="razaoJuridicaec">RAZÃO JURÍDICA</label>
 
           <input
             type="text"
@@ -65,9 +55,7 @@ const UserForm = ({dados, updadeFieldHandler}) => {
           />
         </div>
         <div className="form-controlec">
-          <label htmlFor="complementoec">
-            COMPLEMENTO 
-          </label>
+          <label htmlFor="complementoec">COMPLEMENTO</label>
 
           <input
             type="text"
@@ -78,9 +66,7 @@ const UserForm = ({dados, updadeFieldHandler}) => {
           />
         </div>
         <div className="form-controlec">
-          <label htmlFor="cnaeec">
-            CNAE
-          </label>
+          <label htmlFor="cnaeec">CNAE</label>
 
           <input
             type="text"
@@ -93,9 +79,7 @@ const UserForm = ({dados, updadeFieldHandler}) => {
       </div>
 
       <div className="form-emailec">
-        <label htmlFor="emailec">
-          E-MAIL
-        </label>
+        <label htmlFor="emailec">E-MAIL</label>
 
         <input
           type="email"
@@ -106,7 +90,6 @@ const UserForm = ({dados, updadeFieldHandler}) => {
         />
       </div>
     </div>
-
-  )
-}
-export default UserForm
+  );
+};
+export default UserForm;

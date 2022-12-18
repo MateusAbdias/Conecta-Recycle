@@ -1,13 +1,10 @@
 import React from "react";
 
-const ReviewForm = ({dados}) => {
+const ReviewForm = ({ dados }) => {
   return (
     <div className="conteiner-useForm2ec">
-
       <div className="form-controlec">
-        <label htmlFor="linklogoec">
-          LINK DA SUA LOGO
-        </label>
+        <label htmlFor="linklogoec">LINK DA SUA LOGO</label>
 
         <input
           type="text"
@@ -17,11 +14,9 @@ const ReviewForm = ({dados}) => {
           required
         />
       </div>
-      <div className='form-control-umec'>
+      <div className="form-control-umec">
         <div className="form-controlec">
-          <label htmlFor="instagramec">
-            INSTAGRAM
-          </label>
+          <label htmlFor="instagramec">INSTAGRAM</label>
 
           <input
             type="text"
@@ -32,9 +27,7 @@ const ReviewForm = ({dados}) => {
           />
         </div>
         <div className="form-controlec">
-          <label htmlFor="linkedinec">
-            LINKEDIN
-          </label>
+          <label htmlFor="linkedinec">LINKEDIN</label>
 
           <input
             type="text"
@@ -44,14 +37,11 @@ const ReviewForm = ({dados}) => {
             required
           />
         </div>
-
       </div>
 
-      <div className='form-control-doisec'>
+      <div className="form-control-doisec">
         <div className="form-controlec">
-          <label htmlFor="whatsapp1ec">
-            WHATSAPP
-          </label>
+          <label htmlFor="whatsapp1ec">WHATSAPP</label>
 
           <input
             type="text"
@@ -62,9 +52,7 @@ const ReviewForm = ({dados}) => {
           />
         </div>
         <div className="form-controlec">
-          <label htmlFor="whatsapp2ec">
-            WHATSAPP
-          </label>
+          <label htmlFor="whatsapp2ec">WHATSAPP</label>
 
           <input
             type="text"
@@ -76,7 +64,6 @@ const ReviewForm = ({dados}) => {
         </div>
       </div>
     </div>
-
-  )
-}
-export default ReviewForm
+  );
+};
+export default ReviewForm;

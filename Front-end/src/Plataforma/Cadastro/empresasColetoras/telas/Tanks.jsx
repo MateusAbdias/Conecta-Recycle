@@ -1,14 +1,10 @@
 import React from "react";
 
-const TanksForm = ({dados}) => {
+const TanksForm = ({ dados }) => {
   return (
     <div className="conteiner-useForm3ec">
-
-
       <div className="form-controlec">
-        <label htmlFor="nomeResponsavelec">
-          NOME DO RESPONSÁVEL
-        </label>
+        <label htmlFor="nomeResponsavelec">NOME DO RESPONSÁVEL</label>
 
         <input
           type="text"
@@ -18,11 +14,9 @@ const TanksForm = ({dados}) => {
           required
         />
       </div>
-      <div className='form-control-um3ec'>
+      <div className="form-control-um3ec">
         <div className="form-control3ec">
-          <label htmlFor="departamentoec">
-            DEPARTAMENTO
-          </label>
+          <label htmlFor="departamentoec">DEPARTAMENTO</label>
 
           <input
             type="text"
@@ -33,9 +27,7 @@ const TanksForm = ({dados}) => {
           />
         </div>
         <div className="form-control3ec">
-          <label htmlFor="whatsappResponsavelec">
-            WHATSAPP
-          </label>
+          <label htmlFor="whatsappResponsavelec">WHATSAPP</label>
 
           <input
             type="text"
@@ -47,9 +39,7 @@ const TanksForm = ({dados}) => {
         </div>
 
         <div className="form-control3ec">
-          <label htmlFor="emailResponsavelec">
-            EMAIL
-          </label>
+          <label htmlFor="emailResponsavelec">EMAIL</label>
 
           <input
             type="text"
@@ -60,9 +50,7 @@ const TanksForm = ({dados}) => {
           />
         </div>
         <div className="form-control3ec">
-          <label htmlFor="linkedinResponsavelec">
-            LINKEDIN
-          </label>
+          <label htmlFor="linkedinResponsavelec">LINKEDIN</label>
 
           <input
             type="text"
@@ -72,12 +60,10 @@ const TanksForm = ({dados}) => {
             required
           />
         </div>
-       </div>
-      
+      </div>
+
       <div className="form-controlec">
-        <label htmlFor="senhaResponsavelec">
-          SENHA
-        </label>
+        <label htmlFor="senhaResponsavelec">SENHA</label>
 
         <input
           type="password"
@@ -87,9 +73,7 @@ const TanksForm = ({dados}) => {
           required
         />
       </div>
-      
     </div>
-
-  )
-}
-export default TanksForm
+  );
+};
+export default TanksForm;
