@@ -78,7 +78,7 @@ import { Routes, Route } from "react-router-dom";
 Em seguida fazemos a aplicação deles no projeto normalmente.
  
 #### Axios
-<p> Utilizamos a biblioteca Axios (v1.2) para facilitar na integração do front-end com o back-end e banco de dados<p>
+<p> Utilizamos a biblioteca Axios (v1.2) para facilitar na integração do front-end com o back-end e banco de dados.<p>
 <p> Essa biblioteca utiliza uma API criada por nos e que roda na url "http://localhost:8080/usuario". Essa API armazena os dados inseridos pelo usuário e envia as informações para o servidor, e para acessá-lo usamos o método post. <p>
 
 <p> Comandos utilizados: <p>
@@ -90,9 +90,9 @@ npm install axios
 Saiba mais: https://www.devmedia.com.br/consumindo-uma-api-com-react-js-e-axios/42900
 
 #### Envio de Email
-<p> Para a construção dessa API utilziamos a biblioteca nodemailer do NodeJS e a API de envio de Email do Outlook disponibilizado pela Microsoft <p>
-<p> Utilizamos o host 'smtp.office365.com'  e a port '587' <p>
-<p> Nosso autentificador foi nosso e-mail e senha <p>
+<p> Para a construção dessa API utilziamos a biblioteca nodemailer do NodeJS e a API de envio de Email do Outlook disponibilizado pela Microsoft. <p>
+<p> Utilizamos o host 'smtp.office365.com'  e a port '587'. <p>
+<p> Nosso autentificador foi nosso e-mail e senha. <p>
 
 Saiba mais: <br>
 https://support.microsoft.com/pt-br/office/configura%C3%A7%C3%B5es-pop-imap-e-smtp-para-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040 <br>
@@ -100,5 +100,5 @@ https://learn.microsoft.com/en-us/graph/outlook-mail-concept-overview
 
 
 #### Gerador de QRCODE
-<p> Para gerar os QrCodes na plataforma utilizamos a biblioteca react-qr-code. O código pega o link digitado no imput e através do useState do react geramos o código automaticamente <p>
-<p> Futuramente iremos implementar o sistema de leitura do qrcode dentro da plataforma <p>
+<p> Para gerar os QrCodes na plataforma utilizamos a biblioteca react-qr-code. O código pega o link digitado no imput e através do useState do react geramos o código automaticamente. <p>
+<p> Futuramente iremos implementar o sistema de leitura do qrcode dentro da plataforma. <p>
