@@ -49,32 +49,23 @@ link: https://www.figma.com/proto/PGTM28DR0tfH32ZIxMEnyv/Telas-Conecta-Recycle?s
 
 <br>
 
-**Como Clonar este repositório**
-Utilize no seu terminal os seguintes comando:
+**Como Clonar este repositório** <br><br>
+Utilize no seu terminal os seguintes comandos:
 
 Inicialmente clone o repositório:
-```
-git clone https://github.com/MateusAbdias/ConectaRecycle
-```
+``` git clone https://github.com/MateusAbdias/ConectaRecycle ```
 
 Entre na pasta ConectaRecycle:
-```
-cd ./ConectaRecycle/
-```
-Entre na Pasta Front-End:
-```
-cd ./Front-end/
-```
+```cd ./ConectaRecycle/```
+
+Entre na pasta Front-End:
+```cd ./Front-end/```
 
 Instale todas as dependências e bibliotecas com esse comando:
-```
-npm install
-```
+```npm install```
 
-Rode o projeto no seu nagador:
-```
-npm run dev
-```
+Rode o projeto no seu navegador:
+```npm run dev```
 
 ### Quem desenvolveu a Conecta Recycle?
 <img src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/devs/3521def2-28aa-40d5-917f-3b09a5a2837d.png?raw=true" width="100px"><img src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/devs/d59b3def-75e8-4dbc-853b-fdeef50e837d.png?raw=true" width="100px">
