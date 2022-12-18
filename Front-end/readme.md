@@ -25,12 +25,13 @@ Rode o projeto no seu nagador:
 **Logo**
 **Mascote**
 **Protótipo**
-
 link para nosso protótipo no figma:
+**Família de ícones**
+https://phosphoricons.com/
 
 
 ## ReactJS
-<p> Utilizamos como a ferramenta para construção de nossa aplicação react, visto que ele é uma das ferramentas mais utilizadas atualmente, devido esse empacotador ser mais leve que gerar uma aplicação react do zero pelo padrão da própria biblioteca <p>
+<p> Utilizamos como a ferramenta para construção de nossa aplicação react, visto que ele é uma das ferramentas mais utilizadas atualmente, devido esse empacotador ser mais leve que gerar uma aplicação react do zero pelo padrão da própria biblioteca. <p>
 
 <p> No desenvolvimento da aplicação da Conecta Recycle utilizamos o React na sua mais nova versão (17.0.2), contamos também com um sistema de rotas na plataforma, para gerar mais comodidade ao usuário. <p>
   
@@ -43,14 +44,14 @@ link para nosso protótipo no figma:
   2. A empresa que quer ser um de nossos pontos de coletas e quer receber uma de nossas pevs <br>
   3. A empresa que quer ser coletora em nossos pontos <br><br>
   
-<p> Todos os usuários possuem funcionalidades exlusivas de acordo com o seu tipo de login, a para organização dessas páginas usamos essa organização em nosso repositório <p> 
+<p> Todos os usuários possuem funcionalidades exlusivas de acordo com o seu tipo de login, a para organização dessas páginas usamos essa organização em nosso repositório. <p> 
    
 #### React router DOM
 
 Na aplicação do sistema de rotas utilizamos a biblioteca react-router-dom (v6) com o seguinte código para a instalação:
   
  ~~~git
-npx create-react-app react-rotas
+npm install react-router-dom
 ~~~  
 
 Depois fazemos a importação do sistema de rotas:
@@ -63,4 +64,10 @@ Em seguida fazemos a aplicação deles no projeto normalmente.
  
 #### Axios
 <p> Utilizamos a biblioteca Axios (v1.2) para facilitar na integração do front-end com o back-end e banco de dados<p>
+<p> Essa biblioteca utiliza uma API criada por nos e que roda na url "http://localhost:8080/usuario". Essa API armazena os dados inseridos pelo usuário e envia as informações para o servidor, e para acessá-lo usamos o método post. <p>
+
 <p> Comandos utilizados: <p>
+
+~~~git
+npm install axios
+~~~
