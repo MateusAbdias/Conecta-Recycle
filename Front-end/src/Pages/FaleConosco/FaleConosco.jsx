@@ -1,12 +1,16 @@
 import React from "react";
+import "./FaleConosco.css"
 
 const FaleConosco = () => {
   return (
-    <section className="hero">
-      <div>
-        <h1>oi</h1>
-      </div>
-    </section>
+    <div className="pag-fale-conosco">
+      <section className="section-fale-conosco">
+        <div>
+          <h1 className="txt-fale-conosco">Fale Conosco</h1>
+        </div>
+
+      </section>
+    </div>
   );
 };
 

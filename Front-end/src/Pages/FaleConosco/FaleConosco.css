@@ -1,0 +1,12 @@
+.section-fale-conosco{
+  background-color: #01113D;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.txt-fale-conosco{
+  color: white;
+  font-size: 50px;
+  padding-top:10px ;
+}
