@@ -15,7 +15,7 @@ Entre na pasta Front-End:
 Instale todas as dependências e bibliotecas com esse comando:
 ```npm install```
 
-Rode o projeto no seu nagador:
+Rode o projeto no seu navegador:
 ```npm run dev```
 
 ---
