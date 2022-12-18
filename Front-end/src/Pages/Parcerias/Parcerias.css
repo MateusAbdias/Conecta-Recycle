@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headerimg{
+    width: 100%;
+    
+}
+
+.titulo1{
+    text-align: center;
+    margin: 20px;
+    font-size: 22px;
+}
+
+.logosparceiros{
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logosparceiros div{
+    cursor: pointer;
+}
+
+.logosparceiros img{
+    width: 150px;
+}
+
+.buttons1{
+    display: flex;
+    justify-content: center;
+}
+
+.button1{
+    margin-top: 20px;
+    border: none;
+    box-sizing: border-box;
+    width: 258px;
+    height: 37px;
+    background: #E86310;
+    border: 1px solid #E86310;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.titulo2{
+    margin: 50px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.container{
+    justify-self: center;
+    display: flex;
+}
+
+.container img {
+    margin-left: 300px;
+    width: 60%;
+}
+
+  .button2{
+        margin-top: 20px;
+        border: none;
+        box-sizing: border-box;
+        width: 258px;
+        height: 48px;
+        background: #E86310;
+        border: 1px solid #E86310;
+        border-radius: 40px;
+        color: white;
+        cursor: pointer;
+  }
+
+  .buttons2{
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .button3{
+    margin-left: 50px;
+    margin-top: 20px;
+    border: none;
+    box-sizing: border-box;
+    width: 258px;
+    height: 48px;
+    background: #ffffff;
+    border: 2px solid #E86310;
+    border-radius: 40px;
+    color: #E86310;
+    cursor: pointer;
+}
+
+.titulo3{
+    margin: 50px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.parceiros{
+    display: flex;
+    justify-content: center;
+}
+
+.parceiros img{
+    width: 300px;
+    margin: 20px;
+
+}
+
+.underfooter{
+    margin-top: 60px;
+    text-align: center;
+    background-color: #01113D;
+    height: 20vh;
+    color: white;
+}
+
+.underfooter p{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.contato{
+    cursor: pointer;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: #01113D;
+    padding: 10px 30px 10px;
+    color: white;
+    font-size: 10px;
+}
