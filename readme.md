@@ -47,6 +47,35 @@ link: https://docs.google.com/document/d/16DxER9vOppLZ2zObH-awW6v6Bz0PIVZc0givrh
 **Protótipo no Figma** <br>
 link: https://www.figma.com/proto/PGTM28DR0tfH32ZIxMEnyv/Telas-Conecta-Recycle?scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=207%3A5103&node-id=207%3A5103
 
+<br>
+
+**Como Clonar este repositório**
+Utilize no seu terminal os seguintes comando:
+
+Inicialmente clone o repositório:
+```
+git clone https://github.com/MateusAbdias/ConectaRecycle
+```
+
+Entre na pasta ConectaRecycle:
+```
+cd ./ConectaRecycle/
+```
+Entre na Pasta Front-End:
+```
+cd ./Front-end/
+```
+
+Instale todas as dependências e bibliotecas com esse comando:
+```
+npm install
+```
+
+Rode o projeto no seu nagador:
+```
+npm run dev
+```
+
 ### Quem desenvolveu a Conecta Recycle?
 <img src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/devs/3521def2-28aa-40d5-917f-3b09a5a2837d.png?raw=true" width="100px"><img src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/devs/d59b3def-75e8-4dbc-853b-fdeef50e837d.png?raw=true" width="100px">
 <img src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/devs/392eb2d8-dcca-461e-854d-ee77cd8a5b47.png?raw=true" width="100px">
@@ -76,5 +105,3 @@ link: https://www.figma.com/proto/PGTM28DR0tfH32ZIxMEnyv/Telas-Conecta-Recycle?s
 <img src="https://play-lh.googleusercontent.com/CiGs15N1e1tXrSnVLEY9jOnKi1oNzPQNRjqhR8fXE0pnu_bRyNmfc8xXr2VQUJTfJ9A" width="80px"> <img src="https://play-lh.googleusercontent.com/Wq15hCMPJW-eUz-c4DtnUxHkk2s-pVra14td-E4b05Eo-Cu8Koj6BqPUNULbh9HfjpkC" width="80px">
 <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="80px">
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="80px">
-
-
