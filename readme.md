@@ -1,5 +1,5 @@
 # Repositório geral da Conecta Recycle :recycle: :green_heart:
-<img src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/logo.png?raw=true" width="70%">
+<img src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/logo.png?raw=true" width="100%">
 
 ### Quem somos? :recycle::computer:
 <p> Somos uma plataforma WEB focada em minimizar os descartes incorreto de eletrônicos da Região Metropolitana do Grande Recife-PE (RMR). Fazemos a conexão entre pessoas que possuem e-lixo e quem recicla esses resíduos. <p>
@@ -32,17 +32,20 @@ Saiba mais: https://youtu.be/Yg-cPYYn9F0 <p>
 
 ![Pesquisa de Campo - Conecta Recicle - Formulários Google - Google Chrome 18_12_2022 04_27_40](https://user-images.githubusercontent.com/102550045/208286900-b53bdde4-cf06-406e-ad93-77addb1bbd1c.png)
 ![Pesquisa de Campo - Conecta Recicle - Formulários Google - Google Chrome 18_12_2022 04_29_23](https://user-images.githubusercontent.com/102550045/208286904-350c5013-cb1e-496c-bdc5-576ca364774d.png)
-![Pesquisa de Campo - Conecta Recicle - Formulários Google - Google Chrome 18_12_2022 04_29_38](https://user-images.githubusercontent.com/102550045/208286842-456e9015-06d4-4547-93a2-72ec9e1d1ac1.png)
 ![Pesquisa de Campo - Conecta Recicle - Formulários Google - Google Chrome 18_12_2022 04_29_48](https://user-images.githubusercontent.com/102550045/208286845-c93c9917-0e12-43e2-b6e6-48f984634d7c.png)
-![Pesquisa de Campo - Conecta Recicle - Formulários Google - Google Chrome 18_12_2022 04_29_56](https://user-images.githubusercontent.com/102550045/208286847-8185a068-a543-43ee-8370-19edaed5b80e.png)
 ![Pesquisa de Campo - Conecta Recicle - Formulários Google - Google Chrome 18_12_2022 04_30_06](https://user-images.githubusercontent.com/102550045/208286852-91342bd8-3b28-443a-9660-ea40c8c03af6.png)
-![Pesquisa de Campo - Conecta Recicle - Formulários Google - Google Chrome 18_12_2022 04_30_13](https://user-images.githubusercontent.com/102550045/208286857-43bd9329-4482-4cec-bf09-8aab53c767d2.png)
 ![Pesquisa de Campo - Conecta Recicle - Formulários Google - Google Chrome 18_12_2022 04_30_21](https://user-images.githubusercontent.com/102550045/208286859-63a95513-aa7c-426c-92f7-5748f0c0c9d9.png)
 ![Pesquisa de Campo - Conecta Recicle - Formulários Google - Google Chrome 18_12_2022 04_30_31](https://user-images.githubusercontent.com/102550045/208286860-e7e24c46-6572-40ed-98be-825876b754cb.png)
 ![Pesquisa de Campo - Conecta Recicle - Formulários Google - Google Chrome 18_12_2022 04_30_38](https://user-images.githubusercontent.com/102550045/208286866-79cf64e4-4271-4704-ad4f-5f12e0313394.png)
 
-## O que a Conecta Recycle soluciona?
-<p> Solucionamos <p>
+**Documento de requisitos da Conecta Recycle**
+link: https://docs.google.com/document/d/1XbPUdJLbP2Co9gniOacQsbY7oUSKB0c7XRbeqsAQwks/edit?usp=sharing
+
+**Políticas de Privacidade da Conecta Recycle**
+link: https://docs.google.com/document/d/16DxER9vOppLZ2zObH-awW6v6Bz0PIVZc0givrhT3MJM/
+
+**Protótipo no Figma** <br>
+link: https://www.figma.com/proto/PGTM28DR0tfH32ZIxMEnyv/Telas-Conecta-Recycle?scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=207%3A5103&node-id=207%3A5103
 
 ### Quem desenvolveu a Conecta Recycle?
 <img src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/devs/3521def2-28aa-40d5-917f-3b09a5a2837d.png?raw=true" width="100px"><img src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/devs/d59b3def-75e8-4dbc-853b-fdeef50e837d.png?raw=true" width="100px">
