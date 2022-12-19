@@ -5,11 +5,8 @@ import { AiOutlineYoutube } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 import "./home.css";
-import FooterPeca from "../../components/ComponenteFooter";
 const Home = () => {
-  {
-    /* Aplicando imagens iniciais da homepage */
-  }
+
 
   return (
     <div className="home">
@@ -312,7 +309,6 @@ const Home = () => {
         </Link>
 
       </div>
-      <FooterPeca/>
     </div>
   );
 };

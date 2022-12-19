@@ -30,11 +30,7 @@ import logopatrocinador from "./img/logoparceiros/logopatrocinador.png"
 import logocoletor from "./img/logoparceiros/logocoletor.png"
 import logocoleta from "./img/logoparceiros/logocoleta.png"
 import "./Parcerias.css"
-<<<<<<< HEAD
 import Navbar from "../../components/Navbar";
-=======
-import FooterPeca from "../../components/ComponenteFooter";
->>>>>>> 727a35590bf3c9226bfd67141b4bc5c34c9ce099
 
 
 

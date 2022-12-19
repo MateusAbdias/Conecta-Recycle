@@ -1,15 +1,6 @@
 import './QuemSomos.css'
 import React from "react";
-<<<<<<< HEAD
 import Navbar from "../../components/Navbar";
-
-const QuemSomos = () => {
-    return(
-        <section className="hero" >
-            <Navbar/>
-            <h1> QuemSomos</h1>
-        </section>
-=======
 import imggratuito from '../imagens/Gratuito.png'
 import imgemial from '../imagens/Email.png'
 import imgseguro from '../imagens/Imgseguro.png'
@@ -26,11 +17,10 @@ import { TbBrandLinkedin } from 'react-icons/tb'
 import { CiYoutube } from 'react-icons/ci'
 import banersobrenos from '../imagens/imgquemsomos.jpg'
 
-
-
  function SobreNos() {
     return (
         <div>
+            <Navbar/>
             <img src={banersobrenos} className='ImgQuemSomosqs' />
             <h1 className='TituloSobreNosqs'>A Conecta Recycle</h1>
             <h2 className='SomosSoluçaoqs'>Somos a solução para os lixos eletrônicos<br />
@@ -108,16 +98,8 @@ import banersobrenos from '../imagens/imgquemsomos.jpg'
 
 
             </div>
-            
-            
->>>>>>> 727a35590bf3c9226bfd67141b4bc5c34c9ce099
     )
 
  }
 
- export default SobreNos
-
-        
-    
-
-
+ export default SobreNos;
