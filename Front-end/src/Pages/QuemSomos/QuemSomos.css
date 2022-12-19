@@ -262,7 +262,7 @@ cursor: pointer;
 
 .blocoverdeqs{
 position: absolute;
-top: 385%;
+top: 387%;
 background:#18C148;;
 width: 90%;
 height: 50%;
@@ -457,15 +457,300 @@ left: 8%;
 
 }
 
+.footerqs{
+background: #1E1E1E;
+
+
+
+}
+
+.footerteste{
+background: #1E1E1E;
+margin-top: 180%;
+height: 400px;
+position: absolute;
+width: 100%;
+
+
+}
+
+.logofooterds{
+width: 400px;
+margin-top: 7%;
+margin-left: 5%;
+position: absolute;
+
+}
+
+.mapads{
+position: absolute;
+margin-left: 40%;
+color: white;
+font-size: 30px;
+
+}
+
+.contatods{
+
+    position: absolute;
+    margin-left: 60%;
+    color: white;
+    font-size: 30px;
+
+
+
+}
+
+.blogds{
+    position: absolute;
+    margin-left: 80%;
+    color: white;
+    font-size: 30px;
+
+
+
+
+}
+
+.linkhome{
+position: absolute;
+margin-left: 40%;
+margin-top: 5%;
+color:white
+
+}
+
+.Nosso-blog{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 9%;
+    color:white
+
+
+
+
+}
+
+.quem-somos{
+
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 13%;
+    color:white
+
+
+
+}
+
+.parceriasds{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 17%;
+    color:white
+
+
+
+
+
+}
+
+.fale-conosco{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 21%;
+    color:white
+
+
+
+
+}
+
+.iconemailds{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 5%;
+    color: white;
+font-size: 20px;
+}
+
+.linkgmailds{
+
+    margin-left: 62%;
+    position: absolute;
+    margin-top: 5%;
+    color: white;
+    font-size: 15px;
+
+
+
+
+}
+
+.iconinstads{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 9%;
+    color: white;
+font-size: 20px;
+
+
+
+
+
+}
+
+.conecta-recycle{
+
+    margin-left: 62%;
+    position: absolute;
+    margin-top: 9%;
+    color: white;
+    font-size: 15px;
+
+
+
+
+}
+
+.linkDinds{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 13%;
+    color: white;
+font-size: 20px;
+
+
+
+
+
+}
+
+.conectads{
+    margin-left: 62%;
+    position: absolute;
+    margin-top: 13%;
+    color: white;
+    font-size: 15px;
+
+
+
+
+}
+
+.gitds{
+
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 17%;
+    color: white;
+font-size: 20px;
+
+
+
+
+
+}
+
+.conectahubds{
+
+    margin-left: 62%;
+    position: absolute;
+    margin-top: 17%;
+    color: white;
+    font-size: 15px;
+
+
+
+
+}
+
+.devds{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 21%;
+    color: white;
+    font-size: 15px;
+
+
+}
+
+.linkhubds{
+    margin-left: 62%;
+    position: absolute;
+    margin-top: 21%;
+    color: white;
+font-size: 15px;
+
+
+
+
+}
+
+.inscrevaseds{
+    position: absolute;
+    margin-left: 80%;
+    color: white;
+    font-size: 15px;
+margin-top: 5%;
+
+
+
+}
+
+.inputblog{
+    position: absolute;
+    margin-left: 80%;
+    color: white;
+    font-size: 15px;
+margin-top: 8%;
+background: #1E1E1E;
+border: 1px solid white;
+border-radius: 4px;
+height: 8%;
+
+
+
+}
+
+.btnblog{
+    position: absolute;
+    margin-left: 80%;
+    color: black;
+    font-size: 13px;
+margin-top: 12%;
+background: white;
+border: 1px solid white;
+border-radius: 4px;
+height: 8%;
+width: 7%;
+
+
+
+
+}
+
+.btnblog2{
+    position: absolute;
+    margin-left: 88%;
+    color: white;
+    font-size: 13px;
+margin-top: 12%;
+background: #1E1E1E;
+border: 1px solid white;
+border-radius: 4px;
+height: 8%;
+width: 7%;
 
 
 
 
 
 
+}
+
+.meunome{
+color: #1E1E1E;
 
 
 
-
-
-
+}
