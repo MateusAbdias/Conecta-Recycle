@@ -1,6 +1,7 @@
 import "./Cadastro.css";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { RxAccessibility } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 export default function Cadastro() {
   return (
@@ -55,9 +56,8 @@ export default function Cadastro() {
         <RxAccessibility className="iconeAcessivilidadeCadastro" />
       </button>
 
-      <a href="#" className="LinkSairCadastro">
-        x
-      </a>
+      <Link to="/"><p href="#" className="LinkSairCadastro"> x </p> </Link>
+
     </div>
   );
 }

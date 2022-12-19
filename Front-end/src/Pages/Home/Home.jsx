@@ -3,15 +3,14 @@ import { CiLinkedin } from "react-icons/ci";
 import { FiInstagram } from "react-icons/Fi";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import Navbar from "../../components/Navbar";
 import "./home.css";
-
 const Home = () => {
-  {
-    /* Aplicando imagens iniciais da homepage */
-  }
+
 
   return (
     <div className="home">
+      <Navbar/>
       <div>
         <div className="slides" id="img">
           <img
@@ -308,6 +307,7 @@ const Home = () => {
             <font color="#01113d"> Fale conosco </font>
           </button>
         </Link>
+
       </div>
     </div>
   );
