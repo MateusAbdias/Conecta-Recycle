@@ -8,7 +8,10 @@ import Parceiros from "./Pages/Parcerias/Parcerias";
 import FaleConosco from "./Pages/FaleConosco/FaleConosco";
 import Pevs from "./Pages/Pevs/Pevs";
 import Cadastro from "./Plataforma/Cadastro/Cadastro"
+<<<<<<< HEAD
 import Login from "./Plataforma/login/LoginRecycle"
+=======
+>>>>>>> 113b5d356283e0143494f33ada632f8d17afda3f
 
 function App() {
   return (
@@ -25,6 +28,10 @@ function App() {
         <Route path="/login" element={<Login/>} />
         
       </Routes>
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 113b5d356283e0143494f33ada632f8d17afda3f
     </div>
   );
 }

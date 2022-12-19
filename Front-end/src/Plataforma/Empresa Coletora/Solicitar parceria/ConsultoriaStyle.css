@@ -1,0 +1,88 @@
+.imglogo{
+position: absolute;
+width: 9%;
+margin-left: 46%;
+margin-top: 2%;
+
+
+}
+
+.quadradocinza{
+position: absolute;
+background: #F3F3F3;
+height: 78%;
+width: 85.9%;
+margin-left: 7%;
+margin-top: 6%;
+
+
+
+
+}
+
+.arrow{
+position: absolute;
+font-size: 200%;
+margin-left: 5%;
+margin-top: 5%;
+cursor: pointer;
+
+
+
+}
+
+.solicitar{
+position: absolute;
+color: #01113D;
+line-height: 30px;
+font-weight: 400;
+margin-top: 5% ;
+margin-left: 9%;
+font-size: 150%;
+
+}
+
+.paragrafoseloverde{
+position: absolute;
+margin-left: 9%;
+margin-top: 11%;
+color: #01113D;
+font-size: 160%;
+
+
+
+}
+
+.botãocalendly{
+position: absolute;
+margin-top: 26%;
+margin-left: 27%;
+height: 7%;
+width: 20%;
+border-radius: 5px;
+border: none;
+background: #18C148;
+color: #01113D;
+font-size: 15px;
+cursor: pointer;
+
+
+}
+
+.botãocalendly:hover{
+height: 7.3%;
+width: 20.3%;
+transition: 0.5s;
+
+}
+
+.Prg02{
+position: absolute;
+margin-left: 9%;
+margin-top: 38%;
+color: #01113D;
+
+
+
+}
+
