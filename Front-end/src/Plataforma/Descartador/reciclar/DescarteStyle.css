@@ -1,0 +1,264 @@
+
+
+.blococinza2{
+    position: absolute;
+    background: #F3F3F3;
+    height: 78%;
+    width: 85.9%;
+    margin-left: 7%;
+    margin-top: 6%;
+
+
+
+
+
+
+}
+
+.arrow02{
+position: absolute;
+margin-top: 3.9%;
+font-size: 40px ;
+margin-left: 5%;
+cursor: pointer;
+}
+
+.imglogo2{
+position: absolute;
+width: 9%;
+margin-left: 46%;
+margin-top: 2%;
+
+
+
+
+}
+
+.ola{
+position: absolute;
+margin-left: 9%;
+margin-top: 4%;
+color: #01113D;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+line-height: 30px;
+
+}
+
+.materialdescarte{
+position: absolute;
+margin-left: 9%;
+margin-top: 9%;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+
+
+}
+
+.p2{
+position: absolute;
+margin-left: 9%;
+margin-top: 12%;
+
+
+
+}
+
+.p3{
+position: absolute;
+margin-left: 9%;
+margin-top: 17%;
+
+
+
+}
+
+.Inputdescarte01{
+position: absolute;
+margin-left: 9%;
+margin-top: 20%;
+width: 35%;
+height: 5%;
+background: #F3F3F3 ;
+border: 1px solid;
+
+
+
+
+}
+
+.p4{
+position: absolute;
+margin-left: 9%;
+margin-top: 24%;
+
+
+
+
+}
+
+.Inputdescarte02{
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 27%;
+    width: 35%;
+    height: 5%;
+    background: #F3F3F3 ;
+    border: 1px solid;
+
+
+
+
+
+
+}
+
+.p5{
+position: absolute;
+margin-left: 9%;
+margin-top: 31%;
+
+
+
+
+
+
+}
+
+.Inputdescarte03{
+    position: absolute;
+    margin-left: 9%;
+    margin-top: 34%;
+    width: 35%;
+    height: 5%;
+    background: #F3F3F3 ;
+    border: 1px solid;
+
+
+
+}
+
+.botãozinho{
+position: absolute;
+margin-top: 39%;
+margin-left: 9%;
+height: 6%;
+width: 17%;
+border-radius: 18px;
+background: #E86310;
+border: none;
+color: #01113D;
+cursor: pointer;
+}
+.botãozinho:hover{
+    width: 17.3%;
+    height: 6.3%;
+    transition: 0.5s;
+    
+    
+    }
+
+.botãozinho2{
+    position: absolute;
+    margin-top: 39%;
+    margin-left: 27%;
+    height: 6%;
+    width: 17%;
+    border-radius: 18px;
+    background: #F3F3F3;
+    border-color: #E86310;
+    color:#E86310 ;
+    cursor: pointer;
+    border: 1px solid;
+    
+
+
+}
+
+.botãozinho2:hover{
+width: 17.3%;
+height: 6.3%;
+transition: 0.5s;
+
+
+}
+
+.localização{
+position: absolute;
+margin-left: 58%;
+margin-top: 3%;
+
+
+}
+
+.imgmapa{
+position: absolute;
+margin-left: 50%;
+width: 30%;
+margin-top: 7%;
+margin-left: 58%;
+
+}
+
+.pevsbeneficios{
+position: absolute;
+margin-top: 32%;
+margin-left: 58%;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+
+
+}
+
+.imgpevs{
+position: absolute;
+width: 25%;
+margin-top: 35%;
+margin-left: 57%;
+
+}
+
+.voucher1{
+position: absolute;
+margin-top: 43%;
+margin-left: 58.8%;
+font-size: 70%;
+
+
+}
+
+.reaisemtroca1{
+    position: absolute;
+    margin-top: 43.1%;
+    margin-left: 62.4%;
+    font-size: 65%;
+    color: #E86310;
+
+
+
+}
+
+.voucher2{
+    position: absolute;
+    margin-top: 43%;
+    margin-left: 70%;
+    font-size: 70%;
+
+
+
+
+}
+
+
+.reaisemtroca2{
+    position: absolute;
+    margin-top: 43.1%;
+    margin-left: 73.5%;
+    font-size: 65%;
+    color: #E86310;
+}
