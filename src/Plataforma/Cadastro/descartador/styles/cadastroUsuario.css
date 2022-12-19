@@ -1,0 +1,260 @@
+* {
+  font-family: "Poppins", sem serifa;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.telaCadastro {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+
+.banner-cadastro {
+  width: 30%;
+  height: 100vh;
+  background: linear-gradient(397.87deg, #01113d 11.49%, #2ff74a 142.02%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt-banner {
+  color: #ffff;
+  font-size: 56px;
+}
+
+.icon-seta {
+  color: #01113d;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 45%;
+  left: 27%;
+  background-color: #ffff;
+  border-radius: 100%;
+}
+
+.main {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  height: 350px;
+  width: 759px;
+  background-color: #ffffff;
+  margin-top: -50px;
+}
+
+.form-container form {
+  max-width: 759px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+}
+
+.inputs-container {
+  height: 350px;
+}
+
+.conteiner-useForm {
+  display: flex;
+  height: 350px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-control {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 369px;
+  height: 100px;
+  margin-right: 20px;
+  margin-left: 0px;
+  gap: 2px;
+}
+
+.form-control-um {
+  display: flex;
+}
+
+.form-control-dois {
+  display: flex;
+  flex-direction: column;
+}
+
+#email1 {
+  width: 758px;
+}
+
+#senha1 {
+  width: 758px;
+}
+
+#cep1 {
+  width: 758px;
+}
+
+#telefone1 {
+  width: 758px;
+}
+
+.label-termos {
+  font-size: 15px;
+  margin-left: 2px;
+}
+
+.msg-email {
+  display: flex;
+  align-items: center;
+  margin-top: -35px;
+}
+
+.link-termos {
+  color: #e86310;
+  font-weight: normal;
+}
+
+.link-privacidade {
+  color: #e86310;
+  font-weight: normal;
+}
+
+.section-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 10.4rem;
+  gap: 20px;
+}
+
+.cadastro-apps {
+  display: flex;
+  gap: 30px;
+}
+
+.btm-face {
+  border: none;
+  background-color: transparent;
+  text-align: center;
+}
+
+.icon-face {
+  width: 35px;
+  height: 35px;
+  color: #3b579d;
+}
+
+.btm-google {
+  border: 2px solid #b4b4b4;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.icon-google {
+  width: 30px;
+  height: 30px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input,
+textarea {
+  padding: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+}
+
+.botoes-acoes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.botoes-acoes button {
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  background-color: #18c148;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  width: 200px;
+  height: 36px;
+  margin-top: -30px;
+}
+
+#linklogo {
+  width: 759px;
+}
+
+#nomeResponsavel {
+  width: 738px;
+}
+
+#senhaResponsavel {
+  width: 738px;
+}
+
+.link-loguin {
+  display: flex;
+  gap: 5px;
+  margin-bottom: -30px;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.icons {
+  position: relative;
+}
+
+.botao-sair {
+  position: absolute;
+  right: 54px;
+  top: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.botao-acess {
+  position: absolute;
+  right: 44px;
+  bottom: 33px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#bt-acc {
+  font-size: 30px;
+}

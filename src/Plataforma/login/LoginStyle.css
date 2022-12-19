@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .RecycleLogin{
+background: linear-gradient(to top, #2FF74A, #01113D
+
+);
+
+height: 744px; 
+
+
+
+}
+
+.LoginContainer{
+  position: absolute;
+  height: 744px;
+  width: 74%;
+  background: white;
+  z-index: 99;
+  margin-left: 26%;
+
+}
+
+.IconLogin{
+position: absolute;
+z-index: 100;
+font-size: 58px;
+margin-left: 356px;
+margin-top: 22.5%;
+}
+
+.TituloLogin{
+position: absolute;
+color: white;
+margin-left: 127px;
+margin-top: 22%;
+font-size: 260%;
+
+
+}
+
+.TLogin{
+position: absolute;
+margin-left: 370px;
+margin-top: 79px;
+
+
+
+
+}
+
+.UsuarioLogin{
+position: absolute;
+margin-left: 270px;
+margin-top: 200px;
+font-size: 130%;
+}
+
+.SenhaLogin{
+position: absolute;
+margin-left: 270px;
+margin-top: 343px;
+font-size:130% ;
+
+
+
+
+}
+
+.InputLogin{
+position: absolute;
+margin-left: 657px;
+margin-top: 260px;
+z-index: 99;
+width: 500px;
+height: 30px;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+
+}
+.InputSenha{
+position: absolute;
+margin-left: 657px;
+margin-top: 402px;
+z-index: 99;
+width: 500px;
+height: 30px;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+
+
+}
+.LinkSenha{
+position: absolute;
+margin-left: 657px;
+margin-top: 452px;
+z-index: 99;
+text-decoration: none;
+color: black;
+font-size: 13px;
+
+}
+
+.LinkSair{
+position: absolute;
+z-index: 99;
+margin-left: 97%;
+margin-top: 27px;
+font-size: 20px;
+text-decoration: none;
+color: black;
+
+
+
+}
+
+
+.BotãoEntrada{
+position: absolute;
+z-index: 99;
+margin-left: 56%;
+margin-top: 507px;
+width: 150px;
+background: #18C148;
+color: white;
+border-radius: 5px;
+border: 0;
+height: 30px;
+font-size: 15px;
+}
+
+.AlternativaLogin{
+position: absolute;
+z-index: 99;
+margin-left: 708px;
+margin-top: 580px;
+color: black;
+
+
+
+}
+
+
+.CadastroLink02{
+position: absolute;
+z-index: 99;
+text-decoration: none;
+color: black;
+margin-left: 840px;
+margin-top: 680px;
+font-size: 12px;
+
+}
+
+.iconedofacebookk{
+position: absolute;
+width: 30px;
+margin-top: 625px;
+margin-left: 858px;
+z-index: 99;
+
+}
+
+.iconedogmail{
+  position: absolute;
+  width: 30px;
+  margin-top: 625px;
+  margin-left: 912px;
+  z-index: 99;  
+
+
+
+
+}

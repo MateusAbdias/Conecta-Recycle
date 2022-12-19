@@ -1,0 +1,202 @@
+* {
+  font-family: "Poppins", sem serifa;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.telaCadastropv {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+
+.banner-cadastropv {
+  width: 30%;
+  height: 100vh;
+  background: linear-gradient(397.87deg, #01113d 11.49%, #2ff74a 142.02%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt-bannerpv {
+  color: #ffff;
+  font-size: 56px;
+}
+
+.icon-setapv {
+  color: #01113d;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 45%;
+  left: 27%;
+  background-color: #ffff;
+  border-radius: 100%;
+}
+
+.mainpv {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.titulopv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.form-containerpv {
+  height: 400px;
+  width: 759px;
+  margin-top: 10px;
+}
+
+.form-containerpv form {
+  max-width: 759px;
+  height: 400px;
+}
+
+.inputs-containerpv {
+  height: 350px;
+}
+
+.conteiner-useFormpv {
+  display: flex;
+  height: 350px;
+}
+
+.form-controlpv {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 369px;
+  height: 100px;
+  margin-right: 20px;
+  margin-left: 0px;
+  gap: 2px;
+}
+
+.form-emailpv {
+  width: 759px;
+  height: auto;
+  margin-top: 292px;
+  margin-left: -778px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 18px;
+}
+
+input,
+textarea {
+  padding: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+}
+
+.botoes-acoespv {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.botoes-acoespv button {
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  margin-top: 20px;
+  background-color: #18c148;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  width: 200px;
+  height: 36px;
+}
+
+.conteiner-useForm2pv {
+  margin-top: -40px;
+  display: flex;
+  height: 350px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#linklogopv {
+  width: 759px;
+}
+
+.form-control-um3pv {
+  display: flex;
+  flex-wrap: wrap;
+  width: 759px;
+  height: 200px;
+  margin-bottom: -20px;
+}
+
+.form-control3pv {
+  display: flex;
+  flex-direction: column;
+  width: 359px;
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-top: -10px;
+}
+
+#nomeResponsavelpv {
+  width: 738px;
+}
+
+#senhaResponsavelpv {
+  width: 738px;
+}
+
+.link-loguinpv {
+  display: flex;
+  gap: 5px;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.icons {
+  position: relative;
+}
+
+.botao-sair {
+  position: absolute;
+  right: 54px;
+  top: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.botao-acess {
+  position: absolute;
+  right: 44px;
+  bottom: 33px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#bt-accpv {
+  font-size: 30px;
+}
