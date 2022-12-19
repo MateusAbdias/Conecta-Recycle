@@ -1,10 +1,12 @@
 import React from "react";
 import './Pevs.css';
 import Footer from "../../assets/Images/footer.png";
+import Navbar from "../../components/Navbar";
 
 const Pevs = () => {
     return (
         <div className="paginaPev">
+            <Navbar/>
             <section className="bannerTelaPev">
                 <img src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/nossasPEVs/7e046ea4-9c40-45b4-9586-68a77bfc8dfa.png?raw=true "
                     alt="banner nossas pevs" className="banner-pev" />

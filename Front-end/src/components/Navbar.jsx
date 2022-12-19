@@ -20,7 +20,7 @@ function Navbar() {
                 <nav ref={navRef}>
                     <ul className="nav-li">
 
-                        <Link to=""><li>HOME</li></Link>
+                        <Link to="/"><li>HOME</li></Link>
                         <Link to="/blog"><li>NOSSO BLOG</li></Link>
                         <Link to="/quemsomos"> <li> QUEM SOMOS </li></Link>
                         <Link to="/nossaspevs"><li>NOSSAS PEVs</li></Link>
@@ -28,8 +28,8 @@ function Navbar() {
                         <Link to="/faleconosco"><li>FALE CONOSCO</li></Link>
 
                         <div className="nav-buttons">
-                            <button className="cadastro">Cadastre-se </button>
-                            <button className="login">Login</button>
+                        <Link to="/cadastro"><button className="cadastro">Cadastre-se </button></Link>
+                        <Link to="/cadastro"><button className="login">Login</button></Link>
                         </div>
 
                     </ul>

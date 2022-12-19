@@ -30,10 +30,14 @@ import logopatrocinador from "./img/logoparceiros/logopatrocinador.png"
 import logocoletor from "./img/logoparceiros/logocoletor.png"
 import logocoleta from "./img/logoparceiros/logocoleta.png"
 import "./Parcerias.css"
+import Navbar from "../../components/Navbar";
+
+
 
 const Parceirias = () => {
     return(
         <div>
+            <Navbar/>
         <nav>
             <img className="headerimg" src={headerimg} alt="imagem-parcerias"/>
         </nav>
@@ -189,7 +193,7 @@ const Parceirias = () => {
         </div>
 
         <div className="underfooter">
-            <p>Seja um de nossos parceiros</p>
+            <p>Seja um dos nossos parceiros</p>
             <button className="contato">ENTRE EM CONTATO</button>
 
         </div>

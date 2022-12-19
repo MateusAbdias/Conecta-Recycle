@@ -3,6 +3,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { FiInstagram } from "react-icons/Fi";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import Navbar from "../../components/Navbar";
 import "./home.css";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
 
   return (
     <div className="home">
+      <Navbar/>
       <div>
         <div className="slides" id="img">
           <img
