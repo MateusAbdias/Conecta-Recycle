@@ -22,7 +22,7 @@ function Certificado() {
 
                 </ul>
                 <p className="seus">Seus Certificados</p>
-                <p className="descricao">Você consegue pontos ao descartar os eletrônicos e mostrar seu QR code nas nossas PEVs</p>            
+                <p className="descricao">Você consegue pontos ao descartar os eletrônicos e mostrar seu QR code em nossas PEVs</p>            
                 <ul>
                     <li className="certificados">
                     <img src={certificado2} className="certificado" alt="certificado" />
