@@ -10,6 +10,7 @@ import Pevs from "./Pages/Pevs/Pevs";
 import Cadastro from "./Plataforma/Cadastro/Cadastro"
 import Login from "./Plataforma/Cadastro/Cadastro"
 
+import FooterPeca from "./components/ComponenteFooter";
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
         <Route path="/faleconosco" element={<FaleConosco />} />
         <Route path="/cadastro" element={<Cadastro />} />
       </Routes>
+      <div className="footer"><FooterPeca/></div>
     </div>
   );
 }

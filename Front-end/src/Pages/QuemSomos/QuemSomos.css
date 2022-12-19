@@ -1,0 +1,471 @@
+*{font-family: 'Poppins', sans-serif;}
+
+.ImgQuemSomosqs{
+    width: 100%;
+    
+}
+
+.TituloSobreNosqs{
+position: absolute;
+left: 39%;
+top: 90%;
+color: #01113D;;
+
+
+}
+
+.SomosSoluçaoqs{
+    position: absolute;
+    top: 104%;
+    left: 15%;
+    color: #31A936;
+    
+    }
+
+.Botão01qs{
+position: absolute;
+left: 15%;
+top: 123%;
+color: white;
+background:#E86310;
+border: none;
+width: 15.3%;
+height: 4.4%;
+border-radius: 40px;
+cursor: pointer;
+
+
+
+}
+
+.Botão02qs{
+position: absolute;
+top: 123%;
+left: 31%;
+color: #E86310;
+background:white;
+border-color: #E86310;
+width: 15.3%;
+height: 4.4%;
+border-radius: 40px;
+cursor: pointer;
+
+}
+
+.Icon01qs{
+position: absolute;
+top: 130%;
+left: 17.5%;
+font-size: 196%;
+
+
+
+}
+
+.Icon02qs{
+    position: absolute;
+    top: 130.2%;
+    left: 26.2%;
+    font-size: 196%;
+
+
+
+
+}
+
+.Icon03qs{
+    position: absolute;
+    top: 130.3%;
+    left: 35%;
+    font-size: 196%;
+
+
+
+
+
+}
+
+.LinkLinqs{
+position: absolute;
+font-size: 12px;
+color: #01113D;
+text-decoration: none;
+top: 135%;
+left: 15%;
+}
+
+.LinkInstaqs{
+position: absolute;
+font-size: 12px;
+color: #01113D;
+text-decoration: none;
+top: 135%;
+left: 24%;
+
+
+
+
+
+}
+
+.LinkYouTubeqs{
+position: absolute;
+font-size: 12px;
+color: #01113D;
+text-decoration: none;
+top: 135%;
+left: 33%;
+
+
+
+
+}
+
+.ImgGraficoQuemSomosqs{
+    position: absolute;
+    width: 33%;
+    top: 106%;
+    left: 55%;
+
+
+
+
+
+}
+
+.quemsomosqs{
+    position: absolute;
+    width: 18%;
+    top: 154%;
+    left: 20%;
+            }
+
+.visaoqs{
+    position: absolute;
+    width: 18%;
+    top: 154%;
+    left: 42%;
+
+
+
+
+}
+
+.valoresqs{
+    position: absolute;
+    width: 18%;
+    top: 154%;
+    left: 64%;
+
+
+
+
+}
+
+.TituloNosMotiva{
+    position: absolute;
+    left: 39%;
+    top: 193%;
+    color: #01113D;;
+
+
+
+
+}
+
+.blocosqs{
+position: absolute;
+top: 205%;
+left: 10%;
+
+
+
+
+}
+
+.ImgPraiaqs{
+position: absolute;
+top:242% ;
+width: 87%;
+left: 6%;
+
+}
+
+.NossosProjetosqs{
+position: absolute;
+top:270% ;
+left: 34%;
+font-size: 350%;
+color: #01113D;
+}
+
+.botãoSaibaMaiaqs{
+    position: absolute;
+    top: 287%;
+    left: 43%;
+    width: 12%;
+    height: 5.4%;
+    border-radius: 20px;
+    border: none;
+    background: #01113D;
+    color: white;
+    cursor: pointer;
+    }
+
+.ContainerConheçaqs{
+position: absolute;
+top: 328%;
+background: #EAEAEA;;
+width: 100%;
+height: 50%;
+
+}
+
+.ImgEquipeqs{
+width: 40%;
+height: 100%;
+border-radius: 3%;
+
+
+}
+
+.ConheçaEquipeqs{
+    position: absolute;
+    left: 46%;
+    top: 14%;
+    color: #01113D;
+    font-weight: 400;
+    }
+
+.ParagrafoEquipeqs{
+position: absolute;
+left: 46%;
+top: 40% ;
+color: #01113D;
+
+
+}
+
+.botãocontainerqs{
+position: absolute;
+top: 68% ;
+left:46% ;
+height: 14%;
+width: 19%;
+border-width: 1.7px;
+border-color: #01113D;
+border-radius: 3px;
+color: #01113D;
+cursor: pointer;
+
+}
+
+.blocoverdeqs{
+position: absolute;
+top: 385%;
+background:#18C148;;
+width: 90%;
+height: 50%;
+left: 5%;
+border-radius: 5px;
+}
+
+.tituloBlocoqs{
+position: absolute;
+top: 9%;
+left: 7%;
+color:#1E1E1E
+
+}
+
+.ParagrafoBlocoVerdeqs{
+position: absolute;
+top: 26%;
+left: 7% ;
+font-size: 114%;
+
+
+
+
+}
+
+.T2BlocoVerdeqs{
+position: absolute;
+top: 59%;
+left:7% ;
+color: #1E1E1E;
+
+
+}
+
+.Input01{
+    
+        position: absolute;
+        top: 60%;
+        left:7%;
+        width: 50%;
+        height: 10%;
+        border-radius: 6px;
+        background:#18C148 ;
+        border: 1px solid;
+        border-color: #01113D;
+        }
+
+
+    
+   
+
+.BotãoBlocoVerde{
+    position: absolute;
+    top: 60%;
+    left: 58%;
+    height: 10%;
+    width: 20%;
+    border-radius: 6px;
+    background: #000000;
+    color: white;
+    font-size: 100%;
+    cursor: pointer;
+    }
+
+.bloquinho01qs{
+position: absolute;
+top: 29%;
+left: 63%;
+background: white;
+height: 19.4%;
+width: 6.5%;
+border-radius: 5%;
+}
+
+.rapidoqs{
+position: absolute;
+top: 70%;
+left: 18%;
+font-size: 70%;
+
+}
+
+.imgrlg{
+position: absolute;
+width: 70%;
+top: 8%;
+left: 8%;
+
+}
+
+.Quadrado2qs{
+    position: absolute;
+    top: 29%;
+    left: 72%;
+    background: white;
+    height: 19.4%;
+    width: 6.5%;
+    border-radius: 5%;
+
+
+
+}
+
+.Seguroooqs{
+    position: absolute;
+    top: 70%;
+    left: 18%;
+    font-size: 70%;
+
+
+
+}
+
+.imgseguroo{
+    position: absolute;
+    width: 60%;
+    top: 12%;
+    left: 19%;
+
+
+
+
+}
+
+.Quadrado3qs{
+    position: absolute;
+    top: 29%;
+    left: 81%;
+    background: white;
+    height: 19.4%;
+    width: 6.5%;
+    border-radius: 5%;
+
+
+
+
+}
+
+.Emailqs{
+    position: absolute;
+    top: 74%;
+    left: 8%;
+    font-size: 70%;
+
+
+}
+
+.imgsegurooqs{
+    position: absolute;
+    width: 60%;
+    top: 12%;
+    left: 19%;
+
+
+
+}
+
+.Quadrado4qs{
+    position: absolute;
+    top: 29%;
+    left: 90%;
+    background: white;
+    height: 19.4%;
+    width: 6.5%;
+    border-radius: 5%;
+
+
+
+
+}
+
+.Gratuitooqs{
+    position: absolute;
+    top: 70%;
+    left: 18%;
+    font-size: 70%;
+
+
+
+
+
+}
+
+.imggratuito{
+    position: absolute;
+    width: 54%;
+    top: 12%;
+    left: 19%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
