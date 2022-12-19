@@ -4,6 +4,7 @@ import seta from "./img/seta.png"
 import certificado from "./img/certificado1.png"
 import certificado2 from "./img/certificado2.png"
 import menu from "./img/menu.png"
+import { Link } from "react-router-dom";
 import './Certificado.css'
 
 

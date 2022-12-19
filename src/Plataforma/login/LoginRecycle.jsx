@@ -1,5 +1,5 @@
-import google from "../.././Pages/imagens/google.png"
-import imgfacebookk from "../.././Pages/imagens/facebook.png"
+import google from "../../Pages/imgs/google.png"
+import imgfacebookk from "../../Pages/imgs/facebook.png"
 import { IoIosArrowDroprightCircle } from 'react-icons/io'
 import './LoginStyle.css'
 import { Link } from "react-router-dom";

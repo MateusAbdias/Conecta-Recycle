@@ -97,9 +97,9 @@ const CadastroEmpresaColetora = () => {
       </div>
 
       <div className="icons">
-        <button className="botao-sair">
+      <Link to="/"><button className="botao-sair">
           <TbLetterX id="xec" />
-        </button>
+        </button></Link>
 
         <button className="botao-acess">
           <RxAccessibility id="bt-accec" />

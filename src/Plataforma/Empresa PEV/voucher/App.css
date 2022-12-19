@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.menubento{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    width: 13%;
+    margin-left: 650px;
+    margin-top: -70px;
+}
+
+.main{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 1100px;
+    height: 360px;
+    padding-bottom: 170px;
+    background: #eeeeee;
+}
+
+.seta{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.verificacao{
+  font-size: 20px;
+  display: flex;
+  margin-left: 90px;
+  margin-top: -30px;
+}
+
+.voucher1{
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 20%;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
+.desconto{
+  margin-left: 40px;
+  display: flex;
+}
+
+.alterar{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+
+.addvoucher{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 15%;
+    margin-left: 380px;
+    margin-top: -115px;
+    padding: 20px;
+}
+
+.addvoucher p{
+  display: flex;
+  margin-left: 25px;
+}
+
+.info1{
+  margin-left: 70px;
+  margin-top: 80px;
+}
+
+.info2{
+  margin-left: 70px;
+  margin-top: 50px;
+}

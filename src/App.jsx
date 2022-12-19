@@ -9,6 +9,9 @@ import FaleConosco from "./Pages/FaleConosco/FaleConosco";
 import Pevs from "./Pages/Pevs/Pevs";
 import Cadastro from "./Plataforma/Cadastro/Cadastro"
 import Login from "./Plataforma/login/LoginRecycle"
+import CadastroEmpresaColetora from "./Plataforma/Cadastro/empresasColetoras/cadastroEmpresaColetora";
+import Descarte from "./Plataforma/Descartador/reciclar/Descarte";
+
 
 function App() {
   return (
@@ -23,6 +26,7 @@ function App() {
         <Route path="/faleconosco" element={<FaleConosco />} />
         <Route path="/cadastro" element={<Cadastro />} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/empresacoletora" element={<CadastroEmpresaColetora />} />
         
       </Routes>
     </div>

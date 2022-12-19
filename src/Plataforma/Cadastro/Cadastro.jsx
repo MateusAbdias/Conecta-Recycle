@@ -32,11 +32,11 @@ export default function Cadastro() {
 
           <a className="imgbotaocadastro">
             {" "}
-            <img
+            <Link to="/empresacoletora"><img
               src="https://github.com/MateusAbdias/imagensConectaRecycle/blob/main/cadastro/dc37ab48-22f9-4dc4-92b0-b6c8087a3ad8.png?raw=true"
               alt="Botão cadastro Empresa coletora"
-              className="imagemBotaoCadastroNav"
-            />
+              className="imagemBotaoCadastroNav" 
+            /></Link>
           </a>
         </nav>
 
