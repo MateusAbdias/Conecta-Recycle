@@ -4,7 +4,7 @@ import { FiInstagram } from "react-icons/Fi";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import "./home.css";
-
+import FooterPeca from "../../components/ComponenteFooter";
 const Home = () => {
   {
     /* Aplicando imagens iniciais da homepage */
@@ -308,7 +308,9 @@ const Home = () => {
             <font color="#01113d"> Fale conosco </font>
           </button>
         </Link>
+
       </div>
+      <FooterPeca/>
     </div>
   );
 };

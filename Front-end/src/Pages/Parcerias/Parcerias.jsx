@@ -30,6 +30,9 @@ import logopatrocinador from "./img/logoparceiros/logopatrocinador.png"
 import logocoletor from "./img/logoparceiros/logocoletor.png"
 import logocoleta from "./img/logoparceiros/logocoleta.png"
 import "./Parcerias.css"
+import FooterPeca from "../../components/ComponenteFooter";
+
+
 
 const Parceirias = () => {
     return(
@@ -191,9 +194,9 @@ const Parceirias = () => {
         <div className="underfooter">
             <p>Seja um de nossos parceiros</p>
             <button className="contato">ENTRE EM CONTATO</button>
-
+            
         </div>
-
+         
         </div>
 
     )

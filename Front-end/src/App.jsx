@@ -9,6 +9,7 @@ import Parceiros from "./Pages/Parcerias/Parcerias";
 import FaleConosco from "./Pages/FaleConosco/FaleConosco";
 import Pevs from "./Pages/Pevs/Pevs";
 
+import FooterPeca from "./components/ComponenteFooter";
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
         <Route path="/parceiros" element={<Parceiros />} />
         <Route path="/faleconosco" element={<FaleConosco />} />
       </Routes>
+      <div className="footer"><FooterPeca/></div>
     </div>
   );
 }

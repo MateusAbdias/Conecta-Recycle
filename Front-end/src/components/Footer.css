@@ -1,0 +1,231 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+.FooterStyle{
+  background: #1E1E1E;
+  margin-bottom: 0%;
+  width: 100%;
+  height: 370px;
+  color: white;
+  padding-bottom: -100%;
+}
+
+
+ .TFooter01{
+  display: inline-block;
+  position: absolute;
+  margin-left: 417px;
+  margin-top: 40px;
+  font-size: 30px;
+ }
+
+ .TFooter02{
+  display: inline-block;
+  position: absolute;
+  margin-left: 750px;
+  margin-top: 40px;
+  font-size: 30px;
+ }
+
+ .TFooter03{
+  display: inline-block;
+  position: absolute;
+  margin-left: 1060px;
+  margin-top: 40px;
+  font-size: 30px;
+ }
+
+ .LinkFooter01{
+  text-decoration: none;
+  color: white; 
+  position: absolute;
+  margin-left: 417px;
+  margin-top: 110px;
+ }
+
+ .LinkFooter02{
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  margin-left: 417px;
+  margin-top: 155px;
+ }
+
+ .LinkFooter03{
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  margin-left: 417px;
+  margin-top: 205px;
+ }
+
+ .LinkFooter04{
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  margin-left: 417px;
+  margin-top: 255px;
+ }
+
+ .LinkFooter05{
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  margin-left: 417px;
+  margin-top: 305px;
+ }
+
+ .IconeEmailFooter{
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 750px;
+
+ }
+
+ .IconeInstaFooter{
+
+  position: absolute;
+  margin-top: 155px;
+  margin-left: 750px;
+
+ }
+
+ .IconeLinkedFooter{
+  position: absolute;
+  margin-top: 205px;
+  margin-left: 747px;
+  font-size: 20px;
+
+
+ }
+
+ .IconeGitFooter{
+  position: absolute;
+  margin-top: 255px;
+  margin-left: 747px;
+  font-size: 20px;
+
+
+ }
+
+ .IconeDevFooter{
+  position: absolute;
+  margin-top: 305px;
+  margin-left: 747px;
+  font-size: 20px;
+
+
+ }
+
+ .LinkFooter06{
+
+  text-decoration: none;
+  color: white; 
+  position: absolute;
+  margin-left: 779px;
+  margin-top: 106px;
+
+ }
+
+ .LinkFooter07{
+  text-decoration: none;
+  color: white; 
+  position: absolute;
+  margin-left: 779px;
+  margin-top: 152px;
+
+
+ }
+
+ .LinkFooter08{
+  text-decoration: none;
+  color: white; 
+  position: absolute;
+  margin-left: 779px;
+  margin-top: 205px;
+
+
+ }
+
+ .LinkFooter09{
+  text-decoration: none;
+  color: white; 
+  position: absolute;
+  margin-left: 779px;
+  margin-top: 254px;
+
+
+ }
+
+ .LinkFooter10{
+
+  text-decoration: none;
+  color: white; 
+  position: absolute;
+  margin-left: 779px;
+  margin-top: 302px;
+
+ }
+
+.TFooter04{
+  color: white; 
+  position: absolute;
+  margin-left: 1060px;
+  margin-top: 106px
+
+}
+
+.InputFooter{
+  background: #1E1E1E;
+  color: white; 
+  position: absolute;
+  margin-left: 1060px;
+  margin-top: 150px;
+  width: 250px;
+  height: 20px;
+  border-radius: 4px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+
+
+
+}
+
+.BotãoFooter01{
+  background: white;
+  position: absolute;
+  margin-left: 1060px;
+  margin-top: 200px;
+  font-size: 11px;
+  width: 113px;
+  height: 30px;
+  border-radius: 5px;
+
+}
+
+.BotãoFooter02{
+  background:#1E1E1E;
+  border-color: white;
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: 200px;
+  font-size: 11px;
+  width: 113px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+}
+
+.ImagemFooter{
+  width: 300px;
+  margin-top: 130px;
+  margin-left: 30px;
+  position: absolute;
+
+
+
+
+}
