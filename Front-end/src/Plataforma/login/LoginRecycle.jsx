@@ -1,15 +1,19 @@
-import google from "../imagens/google.png"
-import imgfacebookk from '../imagens/facebook.png'
+import google from "../.././Pages/imagens/google.png"
+import imgfacebookk from "../.././Pages/imagens/facebook.png"
 import { IoIosArrowDroprightCircle } from 'react-icons/io'
 import './LoginStyle.css'
+import { Link } from "react-router-dom";
 
 export default function LoginRecycle() {
   return (
 
 
       <div className="RecycleLogin">
+      <div className="paredeverde">
       <h2 className="TituloLogin">Login</h2>
-      <IoIosArrowDroprightCircle className='IconLogin' color='' />
+      <IoIosArrowDroprightCircle className='IconLogin' color='' />        
+      </div>
+
 
 
       <div className="LoginContainer">
@@ -26,11 +30,10 @@ export default function LoginRecycle() {
       <input placeholder='Digite o seu e-mail' className='InputLogin' />
       <input placeholder='Digite a sua senha' className='InputSenha' />
       <a href='#' className='LinkSenha'>Esqueci minha senha</a>
-      <a href='#' className='LinkSair'>x</a>
+      <Link to="/"><p className='LinkSair'>x</p></Link>
       <button type='submit' className='BotãoEntrada'>ENTRAR</button>
       <p className='AlternativaLogin'>Ou cadastre-se pelo Facebook ou pela conta Google</p>
-      <p className='NaoPossuiConta01'>Não possui uma conta?</p>
-      <a href='#' className='CadastroLink02'><b>CADASTRE-SE AGORA</b></a>
+      <Link to="/cadastro"><p className='CadastroLink02'><b>CADASTRE-SE AGORA</b></p></Link>
       <a href='#'><img src= {imgfacebookk} className='iconedofacebookk'/></a>
       <a href='#'><img src={google} className='iconedogmail'/></a>
     </div>

@@ -8,7 +8,8 @@ import Parceiros from "./Pages/Parcerias/Parcerias";
 import FaleConosco from "./Pages/FaleConosco/FaleConosco";
 import Pevs from "./Pages/Pevs/Pevs";
 import Cadastro from "./Plataforma/Cadastro/Cadastro"
-import FooterPeca from "./components/ComponenteFooter";
+import Login from "./Plataforma/login/LoginRecycle"
+
 function App() {
   return (
     <div className="App">
@@ -21,8 +22,9 @@ function App() {
         <Route path="/parceiros" element={<Parceiros />} />
         <Route path="/faleconosco" element={<FaleConosco />} />
         <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/login" element={<Login/>} />
+        
       </Routes>
-      <FooterPeca/>
     </div>
   );
 }

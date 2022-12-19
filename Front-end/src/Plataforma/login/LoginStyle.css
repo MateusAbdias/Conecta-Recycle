@@ -145,23 +145,13 @@ color: black;
 
 }
 
-.NaoPossuiConta01{
-    position: absolute;
-    z-index: 99;
-    margin-left: 747px;
-    margin-top: 675px;
-    color: black;
-
-
-
-}
 
 .CadastroLink02{
 position: absolute;
 z-index: 99;
 text-decoration: none;
 color: black;
-margin-left: 920px;
+margin-left: 840px;
 margin-top: 680px;
 font-size: 12px;
 

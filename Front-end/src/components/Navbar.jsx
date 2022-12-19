@@ -29,7 +29,7 @@ function Navbar() {
 
                         <div className="nav-buttons">
                         <Link to="/cadastro"><button className="cadastro">Cadastre-se </button></Link>
-                        <Link to="/cadastro"><button className="login">Login</button></Link>
+                        <Link to="/login"><button className="login">Login</button></Link>
                         </div>
 
                     </ul>

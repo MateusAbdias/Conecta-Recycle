@@ -42,9 +42,9 @@ export default function Cadastro() {
 
         <p className="entreAgora">
           Já possui conta?{" "}
-          <a className="linkEntreAgora" href="/">
+          <Link to="/login"><p className="linkEntreAgora">
             Entre Agora
-          </a>{" "}
+          </p></Link>
         </p>
       </div>
       <div id="bannerCadastro">
@@ -56,7 +56,7 @@ export default function Cadastro() {
         <RxAccessibility className="iconeAcessivilidadeCadastro" />
       </button>
 
-      <Link to="/"><p href="#" className="LinkSairCadastro"> x </p> </Link>
+      <Link to="/"><p className="LinkSairCadastro"> x </p> </Link>
 
     </div>
   );
